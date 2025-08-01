@@ -1,0 +1,90 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "linklist_VkJLjm": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer-left",
+            "title": "",
+            "column_width": 15
+          }
+        },
+        "linklist_Wy4Pw6": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer-menu-second-left",
+            "title": "",
+            "column_width": 15
+          }
+        },
+        "newsletter_DMVexa": {
+          "type": "newsletter",
+          "settings": {
+            "title": "",
+            "text": "<p><a href=\"/pages/newsletter\" title=\"NEWSLETTER\">NEWSLETTER</a></p>",
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": false,
+            "show_name": false,
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "column_width": 40
+          }
+        },
+        "linklist_dQAh46": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "foote-menu-second-right",
+            "title": "",
+            "column_width": 15
+          }
+        },
+        "linklist_XGa3aq": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer-menu-right",
+            "title": "",
+            "column_width": 15
+          }
+        }
+      },
+      "block_order": [
+        "linklist_VkJLjm",
+        "linklist_Wy4Pw6",
+        "newsletter_DMVexa",
+        "linklist_dQAh46",
+        "linklist_XGa3aq"
+      ],
+      "custom_css": [
+        ".footer__newsletter__text a {background: none;}",
+        ".input-group__field {}",
+        "form .newsletter__message {background-color: #f3f1e5; border: none; padding: 10px; color: #101010; text-align: center; font-family: \"Surt Expanded\"; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "logo": "shopify://shop_images/CINOT-LOGO-YELLOW.png",
+        "logo_image_width": 210,
+        "border_color": "#101010",
+        "padding_top": 12,
+        "padding_bottom": 70
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

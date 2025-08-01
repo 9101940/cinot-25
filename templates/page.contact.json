@@ -1,0 +1,234 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": false,
+        "show_content": false,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_qCPx8G": {
+      "type": "section-double",
+      "blocks": {
+        "heading_GM4XcT": {
+          "type": "heading",
+          "settings": {
+            "title": "WE’D LOVE TO HEAR FROM YOU",
+            "padding_bottom": 40
+          }
+        },
+        "text_LqEhA9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HAVE SUGGESTIONS, QUESTIONS, IDEAS, OR JUST WANT TO CHAT? WE’D LOVE TO HEAR FROM YOU! TO ENSURE WE RECEIVE YOUR MESSAGE, PLEASE USE THE FORM BELOW. WE AIM TO ANSWER INQUIRIES WITHIN 2 BUSINESS DAYS.</p>",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_GM4XcT",
+        "text_LqEhA9"
+      ],
+      "custom_css": [
+        "p {font-family: \"Surt Expanded Extrabold\", sans-serif; line-height: 2em;}",
+        ".hero__title {line-height: 1.6em;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Cine_-_Brand_Look_and_Feel_kopiera.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-center",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "contact": {
+      "type": "contact-form",
+      "blocks": {
+        "Name": {
+          "type": "text",
+          "settings": {
+            "title": "FULL NAME",
+            "required": true
+          }
+        },
+        "Email": {
+          "type": "email",
+          "settings": {
+            "title": "EMAIL",
+            "required": true
+          }
+        },
+        "Options-select": {
+          "type": "select",
+          "settings": {
+            "title": "",
+            "label-one": "PICK AN OPTION",
+            "label-two": "Questions about the product",
+            "label-three": "Delivery and returns",
+            "label-four": "Inquiry for restaurants, bars, and hotels",
+            "label-five": "Inquiry for public and private events",
+            "label-six": "Work with us"
+          }
+        },
+        "Message": {
+          "type": "body",
+          "settings": {
+            "title": "MESSAGE",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "Name",
+        "Email",
+        "Options-select",
+        "Message"
+      ],
+      "custom_css": [
+        "input::placeholder,fieldset,select,textarea::placeholder {font-family: \"Surt Expanded\"; font-size: 0.7rem;}",
+        "select {text-transform: uppercase;}",
+        ".form-success {font-family: \"Surt Expanded\"; text-transform: uppercase; line-height: 1.4rem; text-align: center; background-color: #fcfaf2; border: none; box-shadow: none;}",
+        ".errors {background-color: #fcfaf2; border: none; padding: 10px; color: #101010; text-align: center; font-family: \"Surt Expanded\"; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "title": "",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_accordion_group_BPd8rm": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_EMAqWw": {
+          "type": "heading",
+          "settings": {
+            "title": "OFFICE"
+          }
+        },
+        "question_N3czR3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "EMAIL",
+            "content": "<p>contact@drinkcinot.com</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_DPqdBh": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "BUSINESS ADDRESS",
+            "content": "<p>The Cin Company</p><p>Tomtebogatan 34C</p><p>11338 Stockholm</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EMAqWw",
+        "question_N3czR3",
+        "question_DPqdBh"
+      ],
+      "custom_css": [
+        ".accordion__heading {margin-bottom: 40px; font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded\", sans-serif;}",
+        ".accordion__title {font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded\", sans-serif;}",
+        "@media (min-width: 750px) {}",
+        "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "columns": "1",
+        "padding_top": 50,
+        "padding_bottom": 80
+      }
+    },
+    "section_accordion_group_YELttt": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_afaD3d": {
+          "type": "heading",
+          "settings": {
+            "title": "OFFICE"
+          }
+        },
+        "question_Xe6P6H": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Email",
+            "content": "<p>email@email.com</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_7xfEEb": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Business Address",
+            "content": "<p>The Cin Company</p><p>Tomtebogatan 34C</p><p>11338 Stockholm</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading_afaD3d",
+        "question_Xe6P6H",
+        "question_7xfEEb"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".accordion__heading {margin-bottom: 40px; font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded\", sans-serif;}",
+        ".accordion__title {font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Normal\", sans-serif;}",
+        "@media (min-width: 750px) {}",
+        "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "columns": "1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_double_qCPx8G",
+    "contact",
+    "section_accordion_group_BPd8rm",
+    "section_accordion_group_YELttt"
+  ]
+}

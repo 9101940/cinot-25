@@ -1,0 +1,667 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "none",
+            "padding_bottom": 8
+          }
+        },
+        "text_rPW3Gc": {
+          "type": "text",
+          "settings": {
+            "title": "{{ product.metafields.custom.volume.value }}",
+            "text": "",
+            "layout": "left",
+            "padding_bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "padding_bottom": 16
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "size_chart_style": "text",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 30
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": true,
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
+          }
+        },
+        "tabs": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": true,
+            "title_1": "HOW TO DRINK",
+            "raw_content_1": "<p>{{ product.metafields.custom.how_to_drink | metafield_tag }}</p>",
+            "title_2": "INGREDIENTS LIST",
+            "raw_content_2": "<p>{{ product.metafields.custom.ingredients_list | metafield_tag }}</p>",
+            "title_3": "SERVING FACTS",
+            "raw_content_3": "<p>{{ product.metafields.custom.serving_facts | metafield_tag }}</p>",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 50
+          }
+        },
+        "text_6XkjYE": {
+          "type": "text",
+          "settings": {
+            "title": "YELLOW GENTIAN",
+            "text": "<p>{{ product.metafields.custom.what_is_an_ap_ritif_ | metafield_tag }}</p>",
+            "layout": "left",
+            "padding_bottom": 50
+          }
+        },
+        "divider_Xt8GnY": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 50
+          }
+        },
+        "text_D8EmQC": {
+          "type": "text",
+          "settings": {
+            "title": "MADE IN FRANCE",
+            "text": "<p>{{ product.metafields.custom.made_in_france | metafield_tag }}</p>",
+            "layout": "left",
+            "padding_bottom": 50
+          }
+        },
+        "divider_6HhCfN": {
+          "type": "divider",
+          "settings": {
+            "show_line": false,
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_rPW3Gc",
+        "price",
+        "variants",
+        "buttons",
+        "tabs",
+        "text_6XkjYE",
+        "divider_Xt8GnY",
+        "text_D8EmQC",
+        "divider_6HhCfN"
+      ],
+      "custom_css": [
+        ".accordion__title {text-transform: uppercase; font-family: \"Surt Expanded Extrabold\";}",
+        ".product__heading,.product__price {font-family: \"Surt Expanded Extrabold\";}",
+        ".product__price {text-transform: uppercase;}",
+        ".product__title {line-height: 1.6em;}",
+        "@media screen and (min-width: 750px) {.product__content {padding-top: 40px; }}"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "show_cart_bar": false,
+        "enable_zoom": false,
+        "enable_video_looping": false,
+        "image_layout": "stacked",
+        "image_size": "stretch",
+        "mobile_image_style": "slider",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_announcement_tnUhNY": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_iCpnEf": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>0% ALCOHOL</h6>",
+            "color": "#fcfaf2",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_XA4LT8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CLUB-CIN-SYMBOL-OFF-WHITE-SMALL.webp",
+            "image_width": 40
+          }
+        },
+        "text_FmkBHP": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>NATURAL FLAVOURINGS</h6>",
+            "color": "#fcfaf2",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_89LnXg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CLUB-CIN-SYMBOL-OFF-WHITE-SMALL.webp",
+            "image_width": 40
+          }
+        },
+        "text_tyaHi4": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>NO ADDED SUGARS</h6>",
+            "color": "#fcfaf2",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_RWfgDt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CLUB-CIN-SYMBOL-OFF-WHITE-SMALL.webp",
+            "image_width": 40
+          }
+        },
+        "text_k8yzDH": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>GLUTEN-FREE</h6>",
+            "color": "#fcfaf2",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_ggK9JU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CLUB-CIN-SYMBOL-OFF-WHITE-SMALL.webp",
+            "image_width": 40
+          }
+        },
+        "text_9zrHP8": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>VEGAN</h6>",
+            "color": "#fcfaf2",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_ypFECR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CLUB-CIN-SYMBOL-OFF-WHITE-SMALL.webp",
+            "image_width": 40
+          }
+        },
+        "text_f6KH9W": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>NO ARTIFICIAL COLOURINGS</h6>",
+            "color": "#fcfaf2",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_hrCVtT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CLUB-CIN-SYMBOL-OFF-WHITE-SMALL.webp",
+            "image_width": 40
+          }
+        }
+      },
+      "block_order": [
+        "text_iCpnEf",
+        "image_XA4LT8",
+        "text_FmkBHP",
+        "image_89LnXg",
+        "text_tyaHi4",
+        "image_RWfgDt",
+        "text_k8yzDH",
+        "image_ggK9JU",
+        "text_9zrHP8",
+        "image_ypFECR",
+        "text_f6KH9W",
+        "image_hrCVtT"
+      ],
+      "custom_css": [
+        "h6 {font-family: \"Surt Expanded Extrabold\", sans-serif; font-size: 0.8rem;}"
+      ],
+      "settings": {
+        "slider_speed": 10,
+        "text_alignment": "center",
+        "marquee_speed": 50,
+        "direction": "ticker-rtl",
+        "message_spacing": 30,
+        "show_border": false,
+        "layout": "marquee",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "related": {
+      "type": "related",
+      "disabled": true,
+      "settings": {
+        "enable_tabs": false,
+        "heading_alignment": "text-center",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_akbyiF": {
+      "type": "section-double",
+      "blocks": {
+        "heading_HPiac7": {
+          "type": "heading",
+          "settings": {
+            "title": "HOW TO DRINK THE CINOT NON ALCOHOLIC APÉRITIF",
+            "padding_bottom": 40
+          }
+        },
+        "text_kXx8Ah": {
+          "type": "text",
+          "settings": {
+            "text": "<p>AN APÉRITIF IS A DRINK THAT IS TYPICALLY SERVED BEFORE A MEAL TO STIMULATE THE APPETITE AND A WAY TO RELAX AND SOCIALIZE BEFORE DINING, AND CAN BE CONSUMED FROM LUNCH TIME TO LATE NIGHT. THE CONCEPT IS MOST STRONGLY ASSOCIATED WITH FRANCE, WHERE IT HAS A LONG TRADITION AND IS A CULTURAL RITUAL. THE POPULARITY AND PRACTICE OF THE APÉRITIF HAVE SPREAD FROM FRANCE AND CAN VARY WIDELY DEPENDING ON CULTURAL TRADITIONS.<br/><br/>CINOT CAN BE MIXED INTO AN ENDLESS VARIETY OF COCKTAILS OR ON THE ROCKS. WHILE WE ENCOURAGE YOU TO CREATE YOUR OWN CINOT DRINKS, WE PARTICULARLY ENJOY MIXING 1 PART CINOT WITH 3 PARTS PREMIUM TONIC WATER. WE CALL IT THE CINOT AND TONIC.</p><p></p><p> </p><p></p>",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_HPiac7",
+        "text_kXx8Ah"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 750px) {.hero__content {padding: 20px 0 20px 0; }}",
+        ".hero__rte {font-family: \"Surt Expanded\", sans-serif; line-height: 2em;}",
+        "span {padding-bottom: 9px; font-size: 0.7rem;}",
+        ".hero__title {line-height: 1.6;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Update_202505194.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_rM8fiq": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_LeM88K": {
+          "type": "heading",
+          "settings": {
+            "title": "TASTE PROFILE",
+            "padding_bottom": 40
+          }
+        }
+      },
+      "block_order": [
+        "heading_LeM88K"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "section_multicolumn_WFEh3c": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_HBh8JY": {
+          "type": "icon",
+          "settings": {
+            "column_width": 16,
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/TASTE-PROFILE-HIGH-SMALL.png",
+            "icon_size": 80,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "BITTERNESS",
+            "text": "<p>HIGH</p>"
+          }
+        },
+        "icon_HeV9Cz": {
+          "type": "icon",
+          "settings": {
+            "column_width": 16,
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/TASTE-PROFILE-MIDLOW-SMALL.png",
+            "icon_size": 80,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "ACIDITY",
+            "text": "<p>MEDIUM-LOW</p>"
+          }
+        },
+        "icon_7NwbGn": {
+          "type": "icon",
+          "settings": {
+            "column_width": 16,
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/TASTE-PROFILE-MID-SMALL.png",
+            "icon_size": 80,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "HERBAL",
+            "text": "<p>MEDIUM</p>"
+          }
+        },
+        "icon_FNKc3r": {
+          "type": "icon",
+          "settings": {
+            "column_width": 16,
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/TASTE-PROFILE-MID-SMALL.png",
+            "icon_size": 80,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "FRUITINESS",
+            "text": "<p>MEDIUM</p>"
+          }
+        },
+        "icon_mFxkqt": {
+          "type": "icon",
+          "settings": {
+            "column_width": 16,
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/TASTE-PROFILE-MIDLOW-SMALL.png",
+            "icon_size": 80,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "SWEETNESS",
+            "text": "<p>MEDIUM-LOW</p>"
+          }
+        },
+        "icon_x7Qbzr": {
+          "type": "icon",
+          "settings": {
+            "column_width": 16,
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/TASTE-PROFILE-MID-SMALL.png",
+            "icon_size": 80,
+            "icon_alignment": "icon--top",
+            "icon_color": "#545454",
+            "title": "SPICE",
+            "text": "<p>MEDIUM</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_HBh8JY",
+        "icon_HeV9Cz",
+        "icon_7NwbGn",
+        "icon_FNKc3r",
+        "icon_mFxkqt",
+        "icon_x7Qbzr"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "align_columns": "flex-align-center",
+        "layout_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
+    "section_custom_content_Yq4jJb": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_VNNVjG": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "”WE CREATED CINOT TO OFFER A SOPHISTICATED ALTERNATIVE, A WAY TO ENJOY COMPLEX FLAVORS AND THE JOY OF APERITIF CULTURE, MINDFULLY.”",
+            "text": "",
+            "button_text": "THE CINOT STORY",
+            "button_url": "shopify://pages/about",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#fcfaf2",
+            "color": ""
+          }
+        },
+        "image_DtjJxk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Update_202505196.jpg",
+            "title": "",
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_VNNVjG",
+        "image_DtjJxk"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 750px) {.hero__content {padding: 20px 0 20px 0; }}",
+        "span {padding-bottom: 9px; font-size: 0.7rem;}",
+        ".hero__title {line-height: 1.7;}"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "reverse_blocks": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_accordion_group_zBTQ83": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_jynYQf": {
+          "type": "heading",
+          "settings": {
+            "title": "COMMON QUESTIONS"
+          }
+        },
+        "question_ijrKxB": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "WHERE IS CINOT MADE?",
+            "content": "<p>CINOT is made from scratch in France and bottled by a small-scale, family-owned artisanal producer in the Loire Valley, ensuring quality and french tradition in every batch.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_49DMy9": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "I'M PREGNANT, CAN I DRINK CINOT?",
+            "content": "<p>Our non-alcoholic aperitif contains less than 0.2% alcohol by volume (ABV), which is considerably below the EU’s threshold of 1.2% ABV for non-alcoholic beverages. It's generally considered safe for pregnant women, breastfeeding mothers, and minors. However, consulting with a healthcare professional is advised if you have concerns.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_88BUyQ": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "DO I NEED TO REFRIGERATE MY BOTTLE?",
+            "content": "<p>If you have an unopened bottle, you can display it in a cool dry place. Once opened, it's good to consume within 1 month. Refrigeration is not required, but we recommend it for the longest-lasting taste and freshness.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_dBftHg": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "WHERE DO YOU SHIP?",
+            "content": "<p>We currently offer shipping to France, Sweden, and Denmark. We're looking to expand our shipping to additional EU countries in the future. Feel free to email us at contact@drinkcinot.com with your country preference for our expansion plans.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_JAAiki": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "I NOTICED SEDIMENT IN MY BOTTLE, IS IT SAFE TO DRINK?",
+            "content": "<p>Yes, it's completely safe. The presence of sediment is a natural occurrence in our beverage, as we avoid artificial flavors, colors, and limit the use of preservatives. A simple, gentle shake will help dissolve any sediment.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_gwUbXP": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "WHEN WILL MY ORDER ARRIVE?",
+            "content": "<p>Our general delivery times are as follows for orders placed before 2 PM:</p><ul><li><strong>Sweden:</strong> 1-2 business days</li><li><strong>Denmark:</strong> 2-4 business days</li><li><strong>France:</strong> Up to 6 business days</li></ul><p>Please note that these are estimated delivery times and actual delivery may vary depending on external factors such as shipping carrier delays or customs processing.</p><p>Your package will remain at the designated pick-up location for 7 days. It is your responsibility to collect the package within this timeframe. If the package is not picked up within 7 days, it will be automatically returned to us. Additional costs may apply if you wish reshipping the product. </p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jynYQf",
+        "question_ijrKxB",
+        "question_49DMy9",
+        "question_88BUyQ",
+        "question_dBftHg",
+        "question_JAAiki",
+        "question_gwUbXP"
+      ],
+      "custom_css": [
+        ".accordion__heading {margin-bottom: 40px; font-size: 1.4rem;}",
+        ".accordion__title {font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
+        "@media (min-width: 750px) {}",
+        "@media (max-width: 750px) {.accordion-group {padding: 36px 0 36px 0; }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "columns": "2",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "section_reviews_LHz4iE": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_fLDQYT": {
+          "type": "review",
+          "settings": {
+            "title": "– SAM YOUKLIS",
+            "subheading": "",
+            "featured_image": "shopify://shop_images/Screenshot_2023-11-26_at_3.54.49_pm_7cb455e4-c09d-467e-b1a8-c7619532b16a.png",
+            "review_url": ""
+          }
+        },
+        "review_pWAiGR": {
+          "type": "review",
+          "settings": {
+            "title": "– SAM YOUKLIS",
+            "subheading": "",
+            "featured_image": "shopify://shop_images/Screenshot_2023-11-26_at_3.54.49_pm_7cb455e4-c09d-467e-b1a8-c7619532b16a.png",
+            "review_url": ""
+          }
+        },
+        "review_EB8qVR": {
+          "type": "review",
+          "settings": {
+            "title": "– SAM YOUKILIS",
+            "subheading": "",
+            "featured_image": "shopify://shop_images/Screenshot_2023-11-26_at_3.54.49_pm_7cb455e4-c09d-467e-b1a8-c7619532b16a.png",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_fLDQYT",
+        "review_pWAiGR",
+        "review_EB8qVR"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".review__author__name {font-size: 0.7rem;}",
+        ".review__author {margin: 0 !important; font-family: \"Surt Expanded\", sans-serif;}",
+        ".review__content {display: flex; justify-content: end;}",
+        "p {line-height: 1.4rem; margin-top: 60px;}"
+      ],
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1.5,
+        "show_quotation_marks": false,
+        "text_align": "text-left",
+        "card_bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_announcement_tnUhNY",
+    "related",
+    "section_double_akbyiF",
+    "section_rich_text_rM8fiq",
+    "section_multicolumn_WFEh3c",
+    "section_custom_content_Yq4jJb",
+    "section_accordion_group_zBTQ83",
+    "section_reviews_LHz4iE"
+  ]
+}

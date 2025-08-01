@@ -1,0 +1,290 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "disabled": true,
+      "settings": {
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": false,
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_rfDbPV": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_9aEjXx": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "padding_bottom": 16
+          }
+        },
+        "text_HMkC3Q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>27 MARS 2025</p>",
+            "padding_bottom": 16
+          }
+        },
+        "text_6nKMXC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>INSPIRED BY THE FRENCH JOIE DE VIVRE AND THE ICONIC 60-70S, CINOT CAPTURES THE UNIQUE SPIRIT OF A GLAMOROUS AND BOHEMIAN ERA, CELEBRATED THROUGH MOVIES, ARTISTS, AND WRITERS. IT WAS A TIME MARKED BY THE TIMELESS ELEGANCE OF LA BELLE DU JOUR BRIGITTE BARDOT, THE CHEEKY SMILE OF ALAIN DELON AND, ACCOMPAGNÉ PAR LES TUNES OF SERGE GAINSBOURG, JACQUES DUTRONC AND FRANCOISE HARDY. </p><p>CINOT IS A NEW KIND OF APÉRITIF THAT HONORS THIS TRADITION. WHILE WE’VE ADAPTED THE CLASSIC TO MEET THE NEEDS OF THE MODERN DRINKER, THE SPIRIT OF THE FRENCH JOIE DE VIVRE REMAINS THE SAME. CINOT IS THE GOOD LIFE REIMAGINED.</p>",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_9aEjXx",
+        "text_HMkC3Q",
+        "text_6nKMXC"
+      ],
+      "custom_css": [
+        ".hero__rte {line-height: 2;}",
+        ".heading-size-4 {line-height: 1.6;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "section_double_gNPKpa": {
+      "type": "section-double",
+      "blocks": {
+        "heading_VbecM6": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image with text",
+            "padding_bottom": 16
+          }
+        },
+        "text_EGBA8a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>INSPIRED BY THE FRENCH JOIE DE VIVRE AND THE ICONIC 60-70S, CINOT CAPTURES THE UNIQUE SPIRIT OF A GLAMOROUS AND BOHEMIAN ERA, CELEBRATED THROUGH MOVIES, ARTISTS, AND WRITERS. IT WAS A TIME MARKED BY THE TIMELESS ELEGANCE OF LA BELLE DU JOUR BRIGITTE BARDOT, THE CHEEKY SMILE OF ALAIN DELON AND, ACCOMPAGNÉ PAR LES TUNES OF SERGE GAINSBOURG, JACQUES DUTRONC AND FRANCOISE HARDY.</p>",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_VbecM6",
+        "text_EGBA8a"
+      ],
+      "custom_css": [
+        ".hero__rte {line-height: 2;}",
+        ".heading-size-4 {line-height: 1.6;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Drink_Cinot_Non_Alcoholic_4.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_bezVxg": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_x3iPpf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CINOT_NON_ALCOHOLIC_APERITIF5.jpg",
+            "title": "",
+            "flex_align": "align--middle-center",
+            "bg_color": "#f8ac00",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_FerCbX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Drink_Cinot_Non_Alcoholic_2_847e8edd-4486-4d11-8703-4bda6ccc403d.jpg",
+            "title": "A MODERN ODE TO THE FRENCH JOIE DE VIVRE",
+            "flex_align": "align--middle-left",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_x3iPpf",
+        "image_FerCbX"
+      ],
+      "custom_css": [
+        ".hero__rte {line-height: 2;}",
+        ".heading-size-4 {line-height: 1.6;}",
+        ".brick__block:first-child .image__fill img {object-fit: contain;}",
+        ".brick__block:first-child {padding: 10%;}",
+        "@media screen and (max-width: 500px) {.brick__block:first-child {padding: 5% 20%; }}"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_4Qhcgt": {
+      "type": "section-double",
+      "blocks": {
+        "heading_YFhHjb": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image with text",
+            "padding_bottom": 16
+          }
+        },
+        "text_GJVDwY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>INSPIRED BY THE FRENCH JOIE DE VIVRE AND THE ICONIC 60-70S, CINOT CAPTURES THE UNIQUE SPIRIT OF A GLAMOROUS AND BOHEMIAN ERA, CELEBRATED THROUGH MOVIES, ARTISTS, AND WRITERS. IT WAS A TIME MARKED BY THE TIMELESS ELEGANCE OF LA BELLE DU JOUR BRIGITTE BARDOT, THE CHEEKY SMILE OF ALAIN DELON AND, ACCOMPAGNÉ PAR LES TUNES OF SERGE GAINSBOURG, JACQUES DUTRONC AND FRANCOISE HARDY.</p>",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_YFhHjb",
+        "text_GJVDwY"
+      ],
+      "custom_css": [
+        ".hero__rte {line-height: 2;}",
+        ".heading-size-4 {line-height: 1.6;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Drink_Cinot_Non_Alcoholic_4.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_posts_RnW4Pg": {
+      "type": "featured-posts",
+      "blocks": {
+        "featured_post_n7kqEJ": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "news/new-blog-post",
+            "image": "shopify://shop_images/Repeat_Grid_3.jpg",
+            "subheading": ""
+          }
+        },
+        "featured_post_rC6AAa": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "news/test-blog-post-with-a-longer-title-blog-post-with-a-longer-title",
+            "image": "shopify://shop_images/Cinot_Holiday4.jpg",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_post_n7kqEJ",
+        "featured_post_rC6AAa"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".editorial__excerpt {font-family: \"Surt Expanded\"; text-transform: uppercase; font-size: 0.7rem; line-height: 2em;}",
+        ".editorial__meta {font-family: \"Surt Expanded\"; text-transform: uppercase; color: #101010;}",
+        "span {padding-bottom: 9px; font-size: 0.7rem;}",
+        ".editorial__title {line-height: 1.6;}"
+      ],
+      "name": "Featured blog posts",
+      "settings": {
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "width": "wrapper--full",
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_blog_CLkEkp": {
+      "type": "section-blog",
+      "custom_css": [
+        ".wrapper--full-padded {padding-inline: 0.8rem;}",
+        ".article__text-wrapper {padding-inline: 0;}",
+        ".grid-outer {--gap: 0.8rem;}",
+        ".article__excerpt {font-family: \"Surt Expanded\"; text-transform: uppercase; font-size: 0.7rem; line-height: 2em;}",
+        ".article__meta {font-family: \"Surt Expanded\"; text-transform: uppercase; color: #101010;}"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "blog_name": "news",
+        "aspect_ratio": 1.4,
+        "title": "",
+        "show_tags": false,
+        "show_author": false,
+        "show_date": true,
+        "show_button": false,
+        "show_comments": false,
+        "width": "wrapper--full-padded",
+        "grid": 3,
+        "rows": 1,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_rfDbPV",
+    "section_double_gNPKpa",
+    "section_custom_content_bezVxg",
+    "section_double_4Qhcgt",
+    "featured_posts_RnW4Pg",
+    "section_blog_CLkEkp"
+  ]
+}

@@ -1,0 +1,577 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "show_title": false,
+        "show_content": true,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_p6q6xx": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_3cBYK8": {
+          "type": "heading",
+          "settings": {
+            "title": "DRINK RECIPES",
+            "padding_bottom": 40
+          }
+        },
+        "text_MVXkdN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CINOT CAN BE MIXED INTO AN ENDLESS VARIETY OF COCKTAILS OR SERVED ON THE ROCKS. BELOW WE SHARE OUR TAKE ON SOME CLASSICS FROM PARIS AND AROUND THE RIVIERA  –  REIMAGINED WITH CINOT.  </p>",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_3cBYK8",
+        "text_MVXkdN"
+      ],
+      "custom_css": [
+        ".hero__rte {line-height: 2em; max-width: 50rem; align-self: center;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_custom_content_VFjDFc": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_D3BgkW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Update_202505193.jpg",
+            "title": "",
+            "flex_align": "align--top-left",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_hh3LMX": {
+          "type": "text",
+          "settings": {
+            "subheading": "REFRESHING, BITTER, AND BOLD",
+            "title": "CINOT AND TONIC",
+            "text": "<p>1 PART <a href=\"/products/cinot-non-alcoholic-aperitif\" title=\"CINOT – NON ALCOHOLIC APÉRITIF\">CINOT</a></p><p>3 PARTS PREMIUM TONIC<br/><br/><br/>SERVE WITH ICE IN A HIGHBALL GLASS,<br/>ADD A SLICE OF GRAPEFRUIT.</p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#fcfaf2",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_D3BgkW",
+        "text_hh3LMX"
+      ],
+      "custom_css": [
+        ".hero__subheading {order: 2; margin-bottom: 2rem; line-height: 2em;}",
+        ".hero__title {order: 1; margin-bottom: 2rem;}",
+        ".hero__rte {order: 3; font-family: \"Surt Expanded\", Arial, sans-serif; line-height: 2em;}"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_VAMWDG": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_PdzHar": {
+          "type": "text",
+          "settings": {
+            "subheading": "A FRESH TWIST OF THE CLASSIC SPRITZ",
+            "title": "CINOT SPRITZ",
+            "text": "<p>2 PARTS <a href=\"/products/cinot-non-alcoholic-aperitif\" title=\"CINOT – NON ALCOHOLIC APÉRITIF\">CINOT</a></p><p>3 PARTS SPARKLING WINE </p><p>1 PART SODA WATER <br/><br/><br/>SERVE IN A LARGE WINE GLASS, <br/>ADD A WHEEL OF ORANGE, AND A BAYLEAF. </p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#fcfaf2",
+            "color": ""
+          }
+        },
+        "image_Wax8tt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Update_Drinks.jpg",
+            "title": "",
+            "flex_align": "align--top-left",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_PdzHar",
+        "image_Wax8tt"
+      ],
+      "custom_css": [
+        ".hero__subheading {order: 2; margin-bottom: 2rem; line-height: 2em;}",
+        ".hero__title {order: 1; margin-bottom: 2rem;}",
+        ".hero__rte {order: 3; font-family: \"Surt Expanded\", Arial, sans-serif; line-height: 2em;}"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_wbXE7p": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_QBbTcg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Update_Drinks_3.jpg",
+            "title": "",
+            "flex_align": "align--top-left",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_Ddr4kq": {
+          "type": "text",
+          "settings": {
+            "subheading": "BUZZING WITHOUT THE BUZZ",
+            "title": "CINOT BEE’S KNEE’S",
+            "text": "<p>2 PARTS <a href=\"/products/cinot-non-alcoholic-aperitif\" title=\"CINOT – NON ALCOHOLIC APÉRITIF\">CINOT</a></p><p>3 PARTS LEMON JUICE</p><p>3 PARTS ORANGE HONEY SYRUP<br/><br/><br/>SHAKE WITH ICE, STRAIN INTO A  COCKTAIL GLASS, AND GARNISH WITH A ZEST OF ORANGE.</p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#fcfaf2",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QBbTcg",
+        "text_Ddr4kq"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".hero__subheading {order: 2; margin-bottom: 2rem; line-height: 2em;}",
+        ".hero__title {order: 1; margin-bottom: 2rem;}",
+        ".hero__rte {order: 3; font-family: \"Surt Expanded\", Arial, sans-serif; line-height: 2em;}"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_nnXqq4": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_L7FDjM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Update_Drinks_6.jpg",
+            "title": "",
+            "flex_align": "align--top-left",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_TCiDgJ": {
+          "type": "text",
+          "settings": {
+            "subheading": "A MODERN VERSION OF THE MAURESQUE FROM MARSEILLE",
+            "title": "CINOTRESQUE",
+            "text": "<p>2 PARTS <a href=\"/products/cinot-non-alcoholic-aperitif\" title=\"CINOT – NON ALCOHOLIC APÉRITIF\">CINOT</a></p><p>1 PART LIME JUICE<br/>1 PART OREGAT SYRUP<br/><br/>POUR IN A GLASS WITH CRUSHED ICE,<br/>TOP UP WITH A SPLASH OF SODA WATER. </p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#fcfaf2",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_L7FDjM",
+        "text_TCiDgJ"
+      ],
+      "custom_css": [
+        ".hero__subheading {order: 2; margin-bottom: 2rem; line-height: 2em;}",
+        ".hero__title {order: 1; margin-bottom: 2rem;}",
+        ".hero__rte {order: 3; font-family: \"Surt Expanded\", Arial, sans-serif; line-height: 2em;}"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_iftHKA": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_AYBTFX": {
+          "type": "text",
+          "settings": {
+            "subheading": "Refreshing and invigorating",
+            "title": "ESPRESSO CINOT TONIC",
+            "text": "<p>2 PARTS <a href=\"/products/cinot-non-alcoholic-aperitif\" title=\"CINOT – NON ALCOHOLIC APÉRITIF\">CINOT</a></p><p>3 PARTS TONIC</p><p>1 SHOT OF COLD ESPRESSO<br/><br/>SERVE WITH ICE IN A HIGHBALL GLASS,<br/>ADD A SLICE OF ORANGE.</p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#fcfaf2",
+            "color": ""
+          }
+        },
+        "image_yw8Htd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Update_Drinks_2.jpg",
+            "title": "",
+            "flex_align": "align--top-left",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_AYBTFX",
+        "image_yw8Htd"
+      ],
+      "custom_css": [
+        ".hero__subheading {order: 2; margin-bottom: 2rem; line-height: 2em;}",
+        ".hero__title {order: 1; margin-bottom: 2rem;}",
+        ".hero__rte {order: 3; font-family: \"Surt Expanded\", Arial, sans-serif; line-height: 2em;}"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_xDzkPb": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_w64e7y": {
+          "type": "text",
+          "settings": {
+            "subheading": "BITTER, FLORAL, AND BALANCED",
+            "title": "CINOT NEGRONI",
+            "text": "<p>1 PART <a href=\"/products/cinot-non-alcoholic-aperitif\" title=\"CINOT – NON ALCOHOLIC APÉRITIF\">CINOT</a></p><p>1 PART MARTINI FLOREALE </p><p>1 PART 0% GIN<br/><br/>POUR INTO A TUMBLES GLASS OVER A LARGE ROCK, GIVE IT A STIR AND GARNISH WITH A SLICE OF ORANGE.</p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#fcfaf2",
+            "color": ""
+          }
+        },
+        "image_qDV4Lc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Update_Drinks_5.jpg",
+            "title": "",
+            "flex_align": "align--top-left",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_w64e7y",
+        "image_qDV4Lc"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".hero__subheading {order: 2; margin-bottom: 2rem; line-height: 2em;}",
+        ".hero__title {order: 1; margin-bottom: 2rem;}",
+        ".hero__rte {order: 3; font-family: \"Surt Expanded\", Arial, sans-serif; line-height: 2em;}"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_HwFdg4": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_PG9XUk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Update_Drinks_4_copy.jpg",
+            "title": "",
+            "flex_align": "align--top-left",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_cc8mFd": {
+          "type": "text",
+          "settings": {
+            "subheading": "FLUFFY AND  DELICIOUS",
+            "title": "CINOT GARIBALDI",
+            "text": "<p>1 PART <a href=\"/products/cinot-non-alcoholic-aperitif\" title=\"CINOT – NON ALCOHOLIC APÉRITIF\">CINOT</a></p><p>2 PARTS FLUFFED GRAPEFRUIT <br/><br/>FlUFF YOUR JUICE WITH A CENTRIFUGE OR KITCHEN BLENDER. SERVE WITH A SLICE OF GRAPEFRUIT.</p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#fcfaf2",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PG9XUk",
+        "text_cc8mFd"
+      ],
+      "custom_css": [
+        ".hero__subheading {order: 2; margin-bottom: 2rem; line-height: 2em;}",
+        ".hero__title {order: 1; margin-bottom: 2rem;}",
+        ".hero__rte {order: 3; font-family: \"Surt Expanded\", Arial, sans-serif; line-height: 2em;}"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_Qnm8h9": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_KGP4tz": {
+          "type": "text",
+          "settings": {
+            "subheading": "THE CINOT VERSION OF FRENCH 75",
+            "title": "CINOT 75",
+            "text": "<p>1 PART <a href=\"/products/cinot-non-alcoholic-aperitif\" title=\"CINOT – NON ALCOHOLIC APÉRITIF\">CINOT</a></p><p>1/2 PART SQUEEZED LEMON JUICE </p><p>1/2 SIMPLE SYRYP</p><p>3 PARTS SPARKLING WINE<br/><br/>SHAKE CINOT WITH LEMON JUICE AND SYRUP UNTIL ICE COLD. STRAIN INTO A GLASS, TOP WITH CHILLED SPARKLING WINE.</p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#fcfaf2",
+            "color": ""
+          }
+        },
+        "image_xH47Wr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Update_Drinks_7.jpg",
+            "title": "",
+            "flex_align": "align--top-left",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_KGP4tz",
+        "image_xH47Wr"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".hero__subheading {order: 2; margin-bottom: 2rem; line-height: 2em;}",
+        ".hero__title {order: 1; margin-bottom: 2rem;}",
+        ".hero__rte {order: 3; font-family: \"Surt Expanded\", Arial, sans-serif; line-height: 2em;}"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_8HxWRD": {
+      "type": "section-hero",
+      "blocks": {
+        "button_6jcdbt": {
+          "type": "button",
+          "settings": {
+            "link_text": "SHOP NOW",
+            "link": "shopify://products/cinot-non-alcoholic-aperitif",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "button_6jcdbt"
+      ],
+      "custom_css": [
+        "span {padding-bottom: 9px;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/CINOT_DRINK.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "four-fifty-height-hero",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "mobile_image": "shopify://shop_images/CINOT_DRINK-1.jpg",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_p6q6xx",
+    "section_custom_content_VFjDFc",
+    "section_custom_content_VAMWDG",
+    "section_custom_content_wbXE7p",
+    "section_custom_content_nnXqq4",
+    "section_custom_content_iftHKA",
+    "section_custom_content_xDzkPb",
+    "section_custom_content_HwFdg4",
+    "section_custom_content_Qnm8h9",
+    "section_hero_8HxWRD"
+  ]
+}

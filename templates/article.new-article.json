@@ -1,0 +1,410 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products"
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Recent articles"
+          }
+        }
+      },
+      "block_order": [
+        "related-products",
+        "recent-articles"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": false,
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_K9fgmL": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_ycTBDK": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "padding_bottom": 16
+          }
+        },
+        "text_BfBMRH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>27 MARS 2025</p>",
+            "padding_bottom": 16
+          }
+        },
+        "text_tGAkkP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>INSPIRED BY THE FRENCH JOIE DE VIVRE AND THE ICONIC 60-70S, CINOT CAPTURES THE UNIQUE SPIRIT OF A GLAMOROUS AND BOHEMIAN ERA, CELEBRATED THROUGH MOVIES, ARTISTS, AND WRITERS. IT WAS A TIME MARKED BY THE TIMELESS ELEGANCE OF LA BELLE DU JOUR BRIGITTE BARDOT, THE CHEEKY SMILE OF ALAIN DELON AND, ACCOMPAGNÉ PAR LES TUNES OF SERGE GAINSBOURG, JACQUES DUTRONC AND FRANCOISE HARDY. </p><p>CINOT IS A NEW KIND OF APÉRITIF THAT HONORS THIS TRADITION. WHILE WE’VE ADAPTED THE CLASSIC TO MEET THE NEEDS OF THE MODERN DRINKER, THE SPIRIT OF THE FRENCH JOIE DE VIVRE REMAINS THE SAME. CINOT IS THE GOOD LIFE REIMAGINED.</p>",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_ycTBDK",
+        "text_BfBMRH",
+        "text_tGAkkP"
+      ],
+      "custom_css": [
+        ".hero__rte {line-height: 2;}",
+        ".heading-size-4 {line-height: 1.6;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "section_double_78rteb": {
+      "type": "section-double",
+      "blocks": {
+        "heading_LthDiU": {
+          "type": "heading",
+          "settings": {
+            "title": "STANDARD HEADING",
+            "padding_bottom": 40
+          }
+        },
+        "text_TQjhLy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>INSPIRED BY THE FRENCH JOIE DE VIVRE AND THE ICONIC 60-70S, CINOT CAPTURES THE UNIQUE SPIRIT OF A GLAMOROUS AND BOHEMIAN ERA, CELEBRATED THROUGH MOVIES, ARTISTS, AND WRITERS. IT WAS A TIME MARKED BY THE TIMELESS ELEGANCE OF LA BELLE DU JOUR BRIGITTE BARDOT, THE CHEEKY SMILE OF ALAIN DELON AND, ACCOMPAGNÉ PAR LES TUNES OF SERGE GAINSBOURG, JACQUES DUTRONC AND FRANCOISE HARDY.</p>",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_LthDiU",
+        "text_TQjhLy"
+      ],
+      "custom_css": [
+        ".hero__rte {line-height: 2;}",
+        ".heading-size-4 {line-height: 1.6;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Drink_Cinot_Non_Alcoholic_4.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_W7zhPi": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_c4anmq": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "A MODERN ODE TO THE FRENCH JOIE DE VIVRE",
+            "text": "",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f8ac00",
+            "color": "#fcfaf2"
+          }
+        },
+        "image_EiaUAW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Drink_Cinot_Non_Alcoholic_2.jpg",
+            "title": "",
+            "flex_align": "align--middle-left",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_c4anmq",
+        "image_EiaUAW"
+      ],
+      "custom_css": [
+        ".hero__rte {line-height: 2;}",
+        ".heading-size-4 {line-height: 1.6;}"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_RQVGni": {
+      "type": "section-double",
+      "blocks": {
+        "heading_bkUEDh": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "padding_bottom": 40
+          }
+        },
+        "text_DMFX4i": {
+          "type": "text",
+          "settings": {
+            "text": "<p>INSPIRED BY THE FRENCH JOIE DE VIVRE AND THE ICONIC 60-70S, CINOT CAPTURES THE UNIQUE SPIRIT OF A GLAMOROUS AND BOHEMIAN ERA, CELEBRATED THROUGH MOVIES, ARTISTS, AND WRITERS. IT WAS A TIME MARKED BY THE TIMELESS ELEGANCE OF LA BELLE DU JOUR BRIGITTE BARDOT, THE CHEEKY SMILE OF ALAIN DELON AND, ACCOMPAGNÉ PAR LES TUNES OF SERGE GAINSBOURG, JACQUES DUTRONC AND FRANCOISE HARDY.</p><p>CINOT IS A NEW KIND OF APÉRITIF THAT HONORS THIS TRADITION. WHILE WE’VE ADAPTED THE CLASSIC TO MEET THE NEEDS OF THE MODERN DRINKER, THE SPIRIT OF THE FRENCH JOIE DE VIVRE REMAINS THE SAME. CINOT IS THE GOOD LIFE REIMAGINED.</p>",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_bkUEDh",
+        "text_DMFX4i"
+      ],
+      "custom_css": [
+        ".hero__rte {line-height: 2;}",
+        ".heading-size-4 {line-height: 1.6;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Cinot_Drink_1.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "reverse_blocks": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_narqRW": {
+      "type": "section-double",
+      "blocks": {
+        "heading_6MDxhN": {
+          "type": "heading",
+          "settings": {
+            "title": "CINOT CAPTURES THE UNIQUE SPIRIT OF A GLAMOROUS AND BOHEMIAN ERA, CELEBRATED THROUGH MOVIES, ARTISTS, AND WRITERS.",
+            "padding_bottom": 40
+          }
+        }
+      },
+      "block_order": [
+        "heading_6MDxhN"
+      ],
+      "custom_css": [
+        ".hero__rte {line-height: 2;}",
+        ".heading-size-4 {line-height: 1.6;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/CINOT_NON_ALCOHOLIC_APERITIF_3b4696d6-2bec-45b7-bc65-3fb41d614154.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "reverse_blocks": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_UGBDRf": {
+      "type": "section-double",
+      "blocks": {
+        "heading_wPYVyw": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "padding_bottom": 40
+          }
+        },
+        "text_Gk4RFF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>INSPIRED BY THE FRENCH JOIE DE VIVRE AND THE ICONIC 60-70S, CINOT CAPTURES THE UNIQUE SPIRIT OF A GLAMOROUS AND BOHEMIAN ERA, CELEBRATED THROUGH MOVIES, ARTISTS, AND WRITERS. IT WAS A TIME MARKED BY THE TIMELESS ELEGANCE OF LA BELLE DU JOUR BRIGITTE BARDOT, THE CHEEKY SMILE OF ALAIN DELON AND, ACCOMPAGNÉ PAR LES TUNES OF SERGE GAINSBOURG, JACQUES DUTRONC AND FRANCOISE HARDY.</p><p>CINOT IS A NEW KIND OF APÉRITIF THAT HONORS THIS TRADITION. WHILE WE’VE ADAPTED THE CLASSIC TO MEET THE NEEDS OF THE MODERN DRINKER, THE SPIRIT OF THE FRENCH JOIE DE VIVRE REMAINS THE SAME. CINOT IS THE GOOD LIFE REIMAGINED.</p>",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_wPYVyw",
+        "text_Gk4RFF"
+      ],
+      "custom_css": [
+        ".hero__rte {line-height: 2;}",
+        ".heading-size-4 {line-height: 1.6;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Cinot_drink_hero1.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "reverse_blocks": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_blog_yQpWJR": {
+      "type": "section-blog",
+      "disabled": true,
+      "custom_css": [
+        ".wrapper--full-padded {padding-inline: 0.8rem;}",
+        ".article__text-wrapper {padding-inline: 0;}",
+        ".grid-outer {--gap: 0.8rem;}",
+        ".article__excerpt {font-family: \"Surt Expanded\"; text-transform: uppercase; font-size: 0.7rem; line-height: 2em;}",
+        ".article__meta {font-family: \"Surt Expanded\"; text-transform: uppercase; color: #101010;}"
+      ],
+      "settings": {
+        "blog_name": "news",
+        "aspect_ratio": 1.4,
+        "title": "LATEST POSTS",
+        "show_tags": false,
+        "show_author": false,
+        "show_date": true,
+        "show_button": false,
+        "show_comments": false,
+        "width": "wrapper--full-padded",
+        "grid": 3,
+        "rows": 1,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_DXDhnp": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_nzcpRi": {
+          "type": "heading",
+          "settings": {
+            "title": "CONTINUE READING",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_nzcpRi"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "featured_posts_pEMj8P": {
+      "type": "featured-posts",
+      "blocks": {
+        "featured_post_pVLVyk": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "news/new-blog-post",
+            "subheading": ""
+          }
+        },
+        "featured_post_9fW7XL": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "news/test-blog-post-with-a-longer-title-blog-post-with-a-longer-title",
+            "subheading": ""
+          }
+        },
+        "featured_post_JctgJW": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "news/new-blog-post",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_post_pVLVyk",
+        "featured_post_9fW7XL",
+        "featured_post_JctgJW"
+      ],
+      "custom_css": [
+        ".editorial__excerpt {font-family: \"Surt Expanded\"; text-transform: uppercase; font-size: 0.7rem; line-height: 2em;}",
+        ".editorial__meta {font-family: \"Surt Expanded\"; text-transform: uppercase; color: #101010;}",
+        "span {padding-bottom: 9px; font-size: 0.7rem;}",
+        ".editorial__title {line-height: 1.6;}"
+      ],
+      "settings": {
+        "show_author": false,
+        "show_date": true,
+        "show_button": true,
+        "width": "wrapper--full",
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_7Gb9D4": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_K9fgmL",
+    "section_double_78rteb",
+    "section_custom_content_W7zhPi",
+    "section_double_RQVGni",
+    "section_double_narqRW",
+    "section_double_UGBDRf",
+    "section_blog_yQpWJR",
+    "section_rich_text_DXDhnp",
+    "featured_posts_pEMj8P",
+    "section_divider_7Gb9D4"
+  ]
+}

@@ -1,0 +1,111 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "show_title": false,
+        "show_content": true,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_JhFX8Y": {
+      "type": "section-double",
+      "blocks": {
+        "heading_QqxFna": {
+          "type": "heading",
+          "settings": {
+            "title": "JOIN THE CLUB",
+            "padding_bottom": 40
+          }
+        },
+        "text_eadEr3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SIGN UP TO OUR NEWSLETTER TO BE THE FIRST</p><p>TO KNOW ABOUT OUR NEWS, EVENTS AND MORE.</p>",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_QqxFna",
+        "text_eadEr3"
+      ],
+      "custom_css": [
+        "p {font-family: \"Surt Expanded\", sans-serif; line-height: 1rem;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/club-cin.png",
+        "image_width": "one-half",
+        "text_alignment": "text-center",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_newsletter_66wdmQ": {
+      "type": "section-newsletter",
+      "blocks": {
+        "newsletter_gVRTjf": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "",
+            "heading": "SIGN UP",
+            "text": "",
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": false,
+            "show_name": false,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_gVRTjf"
+      ],
+      "custom_css": [
+        ".newsletter__submit {font-family: \"Surt Expanded Extrabold\";}",
+        ".newsletter__submit span {font-size: 0.7rem;}",
+        "h3 {line-height: 1.4rem; margin-top: 0;}",
+        ".input-group {border-bottom: 1px #101010 solid;}",
+        "@media (max-width: 750px) {.hero__content {padding: 20px 0px 20px 0px; }}",
+        ".newsletter__message {background-color: #fcfaf2; border: none; padding: 10px; color: #101010; text-align: center; font-family: \"Surt Expanded\"; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_double_JhFX8Y",
+    "section_newsletter_66wdmQ"
+  ]
+}

@@ -1,0 +1,330 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": false,
+        "show_content": false,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_JLjcRx": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_hFJgfg": {
+          "type": "heading",
+          "settings": {
+            "title": "WE’RE HERE TO HELP",
+            "padding_bottom": 40
+          }
+        },
+        "text_7hVcLg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>WE KNOW YOU'VE GOT QUESTIONS. WE'VE GONE AHEAD AND ANSWERED THE MOST COMMON QUESTIONS BELOW. IF YOU DON'T FIND WHAT YOU'RE LOOKING FOR, PLEASE CONTACT US THROUGH THIS <a href=\"/pages/contact\" title=\"CONTACT\">FORM</a>.</p>",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_hFJgfg",
+        "text_7hVcLg"
+      ],
+      "custom_css": [
+        "p {font-family: \"Surt Expanded Extrabold\", sans-serif; line-height: 2em;}",
+        "a {padding-bottom: 9px;}",
+        "@media (max-width: 374px) {h2 {font-size: 1.5rem; }}",
+        "@media (min-width: 750px) {.hero__rte {width: 60%; align-self: center; }}",
+        "@media (min-width: 450px) and (max-width: 750px) {.hero__rte {width: 80%; align-self: center; }}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "faq-first": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "faq-heading": {
+          "type": "heading",
+          "settings": {
+            "title": "THE PRODUCT"
+          }
+        },
+        "faq-0": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "DO I NEED TO REFRIGERATE MY BOTTLE?",
+            "content": "<p>If you have an unopened bottle, you can display it in a cool dry place. Once opened, it's good to consume within 1 month. Refrigeration is not required, but we recommend it for the longest-lasting taste and freshness.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "I NOTICED SEDIMENT IN MY BOTTLE, IS IT SAFE TO DRINK?",
+            "content": "<p>Yes, it's completely safe. The presence of sediment is a natural occurrence in our beverage, as we avoid artificial flavors, colors, and limit the use of preservatives. A simple, gentle shake will help dissolve any sediment.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "faq-2": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": " CAN I DRINK THIS IF I'M PREGNANT?",
+            "content": "<p>Our non-alcoholic aperitif contains less than 0.2% alcohol by volume (ABV), which is considerably below the EU’s threshold of 1.2% ABV for non-alcoholic beverages. It's generally considered safe for pregnant women, breastfeeding mothers, and minors. However, consulting with a healthcare professional is advised if you have concerns.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_FVUmmP": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "WHAT IS THE FULL LIST OF INGREDIENTS?",
+            "content": "<p>Water, grape juice concentrate, gentian root infusion*, chilli pepper infusion*, natural flavourings, carthamus concentrate, flaxseed fiber; acidity regulator: citric acid; preservatives: potassium sorbate, sodium benzoate; antioxidant: ascorbic acid. *organic origin</p><p>Since alcohol typically acts as an antibacterial agent in traditional spirits, we instead ensure freshness after opening by incorporating commonly used preservatives, potassium sorbate and sodium benzoate.</p><p>Natural flavorings, No added sugars, Gluten-free, Vegan, No artificial colourings, No allergens.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "faq-heading",
+        "faq-0",
+        "faq-1",
+        "faq-2",
+        "question_FVUmmP"
+      ],
+      "custom_css": [
+        ".accordion__heading {margin-bottom: 40px; font-size: 1.4rem;}",
+        ".accordion__title {font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
+        "@media (min-width: 750px) {}",
+        "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "columns": "1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "faq-second": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading-0": {
+          "type": "heading",
+          "settings": {
+            "title": "SHIPPING AND RETURNS"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "WHERE DO YOU SHIP?",
+            "content": "<p>We currently offer shipping to all of EU, except Greece. We're looking to expand our shipping beyond EU  in the future. Feel free to email us at contact@drinkcinot.com with your country preference for our expansion plans.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "WHEN WILL MY ORDER ARRIVE?",
+            "content": "<p>Our general delivery times are as follows for orders placed before 2 PM:</p><ul><li><strong>Sweden:</strong> 1-2 business days</li><li><strong>Denmark:</strong> 2-4 business days</li><li><strong>France:</strong> Up to 6 business days</li></ul><p>Please note that these are estimated delivery times and actual delivery may vary depending on external factors such as shipping carrier delays or customs processing.</p><p>Your package will remain at the designated pick-up location for 7 days. It is your responsibility to collect the package within this timeframe. If the package is not picked up within 7 days, it will be automatically returned to us. Additional costs may apply if you wish reshipping the product. </p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "WHAT IS YOUR RETURN POLICY?",
+            "content": "<p>Due to health and safety reasons, we do not accept returns or provide refunds. We hope that you will enjoy CINOT, but we recognize that it is not for everyone. If CINOT is not your taste preference, we encourage you to share it with someone you know who might appreciate it.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_JgtXWP": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "WHAT IF MY BOTTLE ARRIVES DAMAGED?",
+            "content": "<p>Creating high-quality packaging has been a top priority for us, but, if your bottle is damaged upon arrival, please contact us at contact@drinkcinot.com so we can resolve the issue and send you a replacement.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading-0",
+        "question-1",
+        "question-2",
+        "question-3",
+        "question_JgtXWP"
+      ],
+      "custom_css": [
+        ".accordion__heading {margin-bottom: 40px; font-size: 1.4rem;}",
+        ".accordion__title {font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
+        "@media (min-width: 750px) {}",
+        "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "columns": "1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "faq-third": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading-0": {
+          "type": "heading",
+          "settings": {
+            "title": "COMPANY AND PROCUREMENT"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "WHERE IS CINOT MADE?",
+            "content": "<p>CINOT is made from scratch in France and bottled by a small-scale, family-owned artisanal producer in the Loire Valley, ensuring quality and french tradition in every batch.<strong><br/></strong></p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "WHAT IS YOUR APPROACH TO SUSTAINABILITY?",
+            "content": "<p>We use 100% recycled paper for our boxes and avoid plastic entirely, opting for recyclable paper. Our bottles are made from light  glass, and the caps from recyclable aluminum, reducing our environmental impact. Our suppliers for the bottle and the drink itself are localized to France, minimizing our carbon footprint through reduced shipping and logistics.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading-0",
+        "question-1",
+        "question-2"
+      ],
+      "custom_css": [
+        ".accordion__heading {margin-bottom: 40px; font-size: 1.4rem;}",
+        ".accordion__title {font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
+        "@media (min-width: 750px) {}",
+        "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "columns": "1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_accordion_group_CmPxE8": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_CaPXwd": {
+          "type": "heading",
+          "settings": {
+            "title": "DISTRIBUTION"
+          }
+        },
+        "question_6B6GmE": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "I WANT TO SELL CINOT AT MY RESTAURANT/BAR/HOTEL/STORE, WHO SHOULD I CONTACT?",
+            "content": "<p>Please connect with us by emailing contact@drinkcinot.com Include some details about your business, and we'll provide all the necessary information to get started.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_MKxdzB": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "I WANT TO OFFER CINOT AT AN EVENT, HOW SHOULD I PROCEED?",
+            "content": "<p>For all event-related inquiries, please reach out to contact@drinkcinot.com and we will ensure CINOT adds a special touch to your gathering.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CaPXwd",
+        "question_6B6GmE",
+        "question_MKxdzB"
+      ],
+      "custom_css": [
+        ".accordion__heading {margin-bottom: 40px; font-size: 1.4rem;}",
+        ".accordion__title {font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
+        "@media (min-width: 750px) {}",
+        "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "columns": "1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_JLjcRx",
+    "faq-first",
+    "faq-second",
+    "faq-third",
+    "section_accordion_group_CmPxE8"
+  ]
+}

@@ -1,0 +1,197 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "show_title": false,
+        "show_content": true,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_px6LDN": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_RXxmpA": {
+          "type": "heading",
+          "settings": {
+            "title": "DO YOU WANT TO WORK WITH CINOT?",
+            "padding_bottom": 40
+          }
+        },
+        "text_pMc3AR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inspired by the French joie de vivre and the iconic 60-70s, Cinot captures the unique spirit of a glamorous and bohemian era, celebrated through movies, artists, and writers. It was a time marked by the timeless elegance of la belle du jour Brigitte Bardot, the cheeky smile of Alain Delon and, accompagné par les tunes of Serge Gainsbourg, Jacques Dutronc and Francoise Hardy. </p>",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_RXxmpA",
+        "text_pMc3AR"
+      ],
+      "custom_css": [
+        ".hero__rte {line-height: 2em; text-transform: uppercase; max-width: 50rem; align-self: center;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_reviews_A4BxV9": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_Tmqypm": {
+          "type": "review",
+          "settings": {
+            "title": "DAVID LUNDIN",
+            "subheading": "MIRABELLE",
+            "featured_image": "shopify://shop_images/DAVID_LUNDIN-_MIRABELLE.jpg",
+            "review_url": ""
+          }
+        },
+        "review_xijTMc": {
+          "type": "review",
+          "settings": {
+            "title": "BENOÎT D'ONOFRIO",
+            "subheading": "Le sobrelier",
+            "featured_image": "shopify://shop_images/CINOT_REVIEW.jpg",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_Tmqypm",
+        "review_xijTMc"
+      ],
+      "custom_css": [
+        ".review__author__name {font-size: 0.7rem;}",
+        ".review__author {margin: 0 !important; font-family: \"Surt Expanded\", sans-serif;}",
+        ".review__content {justify-content: end;}",
+        "p {line-height: 2em; margin-top: 2rem;}",
+        "@media screen and (min-width: 750px) and (max-width: 1040px) {.review__content {margin: 0 20px; padding: 20px 0; }}",
+        ".slider__button {--btn-size: 28px;}",
+        "@media screen and (max-width: 745px) {.review__content {justify-content: flex-start; } p {margin: 0; }}"
+      ],
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1.5,
+        "show_quotation_marks": false,
+        "text_align": "text-left",
+        "card_bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_dDDt9A": {
+      "type": "section-double",
+      "blocks": {
+        "heading_dGzeW6": {
+          "type": "heading",
+          "settings": {
+            "title": "’Cinot’s dynamic flavor make it the perfect base for any cocktail adventure, even as a modifier for spiritS’",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_dGzeW6"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 750px) {.hero__content {padding: 20px 0 20px 0; }}",
+        ".hero__title {margin-bottom: 0; line-height: 1.7;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Update_Drinks_3_copy.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "contact_form_ddU4AQ": {
+      "type": "contact-form",
+      "blocks": {
+        "text_cnjF3d": {
+          "type": "text",
+          "settings": {
+            "title": "FULL NAME",
+            "required": false
+          }
+        },
+        "email_R9dGwR": {
+          "type": "email",
+          "settings": {
+            "title": "EMAIL",
+            "required": true
+          }
+        },
+        "select_eJMqrc": {
+          "type": "select",
+          "settings": {
+            "title": "REASON FOR ENQUIRY",
+            "label-one": "- Pick an option -",
+            "label-two": "ORDER CINOT FOR YOUR BAR, RESTAURANT, OR HOTEL",
+            "label-three": "WHOLESALE",
+            "label-four": "DISTRIBUTE CINOT",
+            "label-five": "I WANT CINOT FOR AN EVENT",
+            "label-six": "OTHER"
+          }
+        },
+        "body_qd9xMt": {
+          "type": "body",
+          "settings": {
+            "title": "MESSAGE",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "text_cnjF3d",
+        "email_R9dGwR",
+        "select_eJMqrc",
+        "body_qd9xMt"
+      ],
+      "custom_css": [
+        "input::placeholder,fieldset,select,textarea::placeholder {font-family: \"Surt Expanded\"; font-size: 0.7rem;}",
+        "select {text-transform: uppercase;}",
+        ".form-success {font-family: \"Surt Expanded\"; text-transform: uppercase; line-height: 1.4rem; text-align: center; background-color: #fcfaf2; border: none; box-shadow: none;}",
+        ".errors {background-color: #fcfaf2; border: none; padding: 10px; color: #101010; text-align: center; font-family: \"Surt Expanded\"; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "title": "TRADE CONTACT",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_px6LDN",
+    "section_reviews_A4BxV9",
+    "section_double_dDDt9A",
+    "contact_form_ddU4AQ"
+  ]
+}

@@ -1,0 +1,111 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "aside",
+  "name": "Overlay",
+  "sections": {
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Cart"
+          }
+        },
+        "products": {
+          "type": "products",
+          "settings": {
+            "pin_to_bottom": false
+          }
+        },
+        "order-note": {
+          "type": "order-note",
+          "disabled": true,
+          "settings": {
+            "pin_to_bottom": false
+          }
+        },
+        "checkout-buttons": {
+          "type": "checkout-buttons",
+          "settings": {
+            "enable_additional_buttons": false,
+            "show_view_cart_button": false,
+            "pin_to_bottom": true
+          }
+        },
+        "shipping_estimate_ni6hxG": {
+          "type": "shipping-estimate",
+          "settings": {
+            "pin_to_bottom": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "products",
+        "order-note",
+        "checkout-buttons",
+        "shipping_estimate_ni6hxG"
+      ],
+      "custom_css": [
+        ".cart__title,.cart__total__label,.cart__total__price,.cart__item__title,.cart__price,.cart__item__remove {font-family: \"Surt Expanded\"; text-transform: uppercase;}",
+        ".drawer__empty__message {font-family: \"Surt Expanded\"; text-transform: uppercase;}"
+      ],
+      "settings": {}
+    },
+    "overlay_newsletter_km4jEC": {
+      "type": "overlay-newsletter",
+      "blocks": {
+        "large_newsletter_rwXma7": {
+          "type": "large-newsletter",
+          "settings": {
+            "image": "shopify://shop_images/Newletter_popup_71e3e7bc-10d5-4ccd-8ffd-a53b184a237c.jpg",
+            "subheading": "",
+            "title": "GET 10% OFF",
+            "text": "<p>SIGN UP TO OUR NEWSLETTER TO GET 10% OFF ON YOUR FIRST ORDER AND TO BE THE FIRST TO KNOW ABOUT OUR LATEST NEWS.</p>",
+            "newsletter_enable": true,
+            "button_text": "JOIN",
+            "show_arrow": false,
+            "terms": true,
+            "show_name": false,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "trigger": "always",
+            "bg_color": "#eda502",
+            "color": "#fcfaf2",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "large_newsletter_rwXma7"
+      ],
+      "custom_css": [
+        ".modal__description.rte {line-height: 2em; font-family: \"Surt Expanded\", sans-serif;}",
+        "h2.modal__title {font-size: 1.4rem;}",
+        ".input-group__field {font-family: \"Surt Expanded Extrabold\", sans-serif; text-transform: uppercase;}",
+        ".input-group__field::placeholder {font-size: 0.7rem;}"
+      ],
+      "name": "Newsletter",
+      "settings": {}
+    }
+  },
+  "order": [
+    "cart-drawer",
+    "overlay_newsletter_km4jEC"
+  ]
+}

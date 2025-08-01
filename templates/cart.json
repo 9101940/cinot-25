@@ -1,0 +1,82 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cart",
+      "blocks": {
+        "order-note": {
+          "type": "order-note",
+          "disabled": true,
+          "settings": {}
+        },
+        "checkout-buttons": {
+          "type": "checkout-buttons",
+          "settings": {
+            "enable_additional_buttons": false
+          }
+        },
+        "shipping_estimate_Dpb6yL": {
+          "type": "shipping-estimate",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "order-note",
+        "checkout-buttons",
+        "shipping_estimate_Dpb6yL"
+      ],
+      "custom_css": [
+        ".cart__title,.cart__total__label,.cart__total__price,.cart__item__title,.cart__price,.cart__item__remove {font-family: \"Surt Expanded\"; text-transform: uppercase;}",
+        ".drawer__empty__message {font-family: \"Surt Expanded\"; text-transform: uppercase;}",
+        ".cart__total {margin: 0 0 13px 0;}",
+        ".cart__content .btn--outline {display: none;}"
+      ],
+      "settings": {
+        "padding_top": 80,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_hz8zHU": {
+      "type": "section-rich-text",
+      "blocks": {
+        "buttons_axEn8b": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "BACK TO SHOP",
+            "button_url": "shopify://products/cinot-non-alcoholic-aperitif",
+            "button_type": "btn--secondary",
+            "button_size": "btn--large",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "buttons_axEn8b"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "span {padding-bottom: 9px; font-size: 0.7rem;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_hz8zHU"
+  ]
+}

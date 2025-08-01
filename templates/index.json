@@ -1,0 +1,800 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_HFQFNx": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_PjrarY": {
+          "type": "heading",
+          "settings": {
+            "title": "THE FRENCH YOU WON'T FORGET"
+          }
+        },
+        "button_iaPUne": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "OPT CALL TO ACTION",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PjrarY",
+        "button_iaPUne"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image_1": "shopify://shop_images/CINOT_DRINK2.jpg",
+        "image_2": "shopify://shop_images/CINOT_DRINK_495b0c8c-f7ac-4376-9099-9c7eb0baf044.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--bottom-left-desktop",
+        "mobile_image": "shopify://shop_images/CINOT_DRINK2.jpg",
+        "mobile_height": "screen-height-full--mobile",
+        "flex_align_mobile": "align--bottom-left-mobile"
+      }
+    },
+    "section_announcement_QGBGLE": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_cpYT4Q": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>THIS SUMMER'S HOT NEW COUPLE: CINOT & TONIC</strong></p>",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_rhhdtC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CLUB-CIN-SYMBOL-OFF-WHITE-SMALL.webp",
+            "image_width": 40
+          }
+        }
+      },
+      "block_order": [
+        "text_cpYT4Q",
+        "image_rhhdtC"
+      ],
+      "custom_css": [
+        "h6 {font-family: \"Surt Expanded Extrabold\", sans-serif; font-size: 0.8rem;}"
+      ],
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 50,
+        "direction": "ticker-rtl",
+        "message_spacing": 30,
+        "show_border": false,
+        "layout": "marquee",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "section_double_66eJhQ": {
+      "type": "section-double",
+      "blocks": {
+        "heading_Ckyrzp": {
+          "type": "heading",
+          "settings": {
+            "title": "THE FRENCH AWARD-WINNING NON ALCOHOLIC APÉRITIF",
+            "padding_bottom": 40
+          }
+        },
+        "text_gJCEbX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FALL IN LOVE WITH A FRENCH THIS SUMMER. CINOT IS A REFRESHING AND BITTERSWEET NON-ALCOHOLIC APÉRITIF WITH ZESTY, FRUITY, AND SPICY NOTES. A NEW KIND OF APÉRITIF WITH ALL OF THE FEELING, BUT NONE OF THE HANGOVER.</p>",
+            "padding_bottom": 20
+          }
+        },
+        "buttons_Cpfewc": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP NOW",
+            "button_url": "shopify://products/cinot-non-alcoholic-aperitif",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ckyrzp",
+        "text_gJCEbX",
+        "buttons_Cpfewc"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 750px) {.hero__content {padding: 20px 0 20px 0; }}",
+        ".hero__rte {font-family: \"Surt Expanded\", sans-serif; line-height: 2em;}",
+        "span {padding-bottom: 9px; font-size: 0.7rem;}",
+        ".hero__title {line-height: 1.6em;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Update_20250519.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_wGwRPB": {
+      "type": "section-double",
+      "blocks": {
+        "text_YG7AUt": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>REFRESHING </h6><h6>BITTER</h6><h6>BOLD</h6>",
+            "padding_bottom": 0
+          }
+        },
+        "text_XT9Fw8": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>UNE </h6><h6>RECETTE </h6><h6>ORIGNALE</h6>",
+            "padding_bottom": 0
+          }
+        },
+        "divider_EQjxBT": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "text_WAcViY": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>BITTERSWEET</h6><h6>AND</h6><h6>HERBAL</h6>",
+            "padding_bottom": 0
+          }
+        },
+        "text_3VHdMj": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>WITH</h6><h6>ZESTY,</h6><h6>FRUITY</h6>",
+            "padding_bottom": 0
+          }
+        },
+        "text_Wrf68a": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>AND</h6><h6>SPICY</h6><h6>NOTES</h6>",
+            "padding_bottom": 0
+          }
+        },
+        "image_bKxcgT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CLUB-CIN-SYMBOL-OFF-WHITE-SMALL.webp",
+            "image_width": 20,
+            "padding_bottom": 16
+          }
+        },
+        "divider_N9LwLy": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "text_GEwnPr": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>A</h6><h6>BASE</h6><h6>DE</h6><h6>PLANTES</h6><h6>AMÈRES</h6>",
+            "padding_bottom": 0
+          }
+        },
+        "text_9E793D": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>DOUCES </h6><h6>ET</h6><h6>HERBACÉES</h6>",
+            "padding_bottom": 0
+          }
+        },
+        "text_Gz4Jzq": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>AVEC </h6><h6>DES</h6><h6>NOTES</h6><h6>ZESTÉES</h6>",
+            "padding_bottom": 0
+          }
+        },
+        "text_G7a3MF": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>FRUITÉES </h6><h6>ET</h6><h6>ÉPICÉES</h6>",
+            "padding_bottom": 0
+          }
+        },
+        "text_VjWfBn": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h6>REFRESHING </h6><h6>BITTER</h6><h6>BOLD</h6>",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_YG7AUt",
+        "text_XT9Fw8",
+        "divider_EQjxBT",
+        "text_WAcViY",
+        "text_3VHdMj",
+        "text_Wrf68a",
+        "image_bKxcgT",
+        "divider_N9LwLy",
+        "text_GEwnPr",
+        "text_9E793D",
+        "text_Gz4Jzq",
+        "text_G7a3MF",
+        "text_VjWfBn"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".brick__block__text {flex-basis: 100%;}",
+        ".hero__rte {display: flex; flex-direction: row; justify-content: space-between;}",
+        ".divider {border: 2px solid #fcfaf2;}",
+        ".hero__content h6 {line-height: 1.6rem !important;}",
+        ".hero__media {margin: auto;}",
+        ".hero__content--compact {margin: 0;}",
+        "@media screen and (min-width: 750px) and (max-width: 900px) {h6 {font-size: 1.2rem; }}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/SMALL_TASTE.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_txPdcX": {
+      "type": "section-double",
+      "blocks": {
+        "heading_JJnzYi": {
+          "type": "heading",
+          "settings": {
+            "title": "CIN AND TONIC",
+            "padding_bottom": 40
+          }
+        },
+        "text_C8VE3L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LIKE ANY CLASSIC SPIRIT, CLUB CIN CAN BE MIXED INTO AN ENDLESS VARIETY OF COCKTAILS OR ON THE ROCKS. WHILE WE ENCOURAGE YOU TO CREATE YOUR OWN CLUB CIN COCKTAILS, WE PARTICULARLY ENJOY MIXING 1 PART CLUB CIN WITH 3 PARTS PREMIUM TONIC WATER. WE CALL IT THE CIN AND TONIC.</p>",
+            "padding_bottom": 20
+          }
+        },
+        "buttons_MhD69a": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SHOP NOW",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_JJnzYi",
+        "text_C8VE3L",
+        "buttons_MhD69a"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media (max-width: 750px) {.brick__block__text {height: 40rem; }}",
+        ".hero__rte {font-family: \"Surt Expanded Extrabold\", sans-serif; line-height: 1.4rem;}",
+        "span {padding-bottom: 9px; font-size: 0.7rem;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/cin-and-tonic.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-center",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_zzMg3M": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_FepLyQ": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "INTRODUCING: CINOT TONIC –  A NEW KIND OF APÉRITIF",
+            "text": "<p>AN APÉRITIF IS A DRINK THAT IS TYPICALLY SERVED BEFORE A MEAL TO STIMULATE THE APPETITE AND A WAY TO RELAX AND SOCIALIZE BEFORE DINING, AND CAN BE CONSUMED FROM LUNCH TIME TO LATE NIGHT. </p><p> </p><p>CINOT CAN BE MIXED INTO AN ENDLESS VARIETY OF COCKTAILS OR ON THE ROCKS. WHILE WE ENCOURAGE YOU TO CREATE YOUR CINOT DRINKS, WE PARTICULARLY ENJOY MIXING 1 PART CINOT WITH 3 PARTS PREMIUM TONIC WATER. WE CALL IT THE CINOT AND TONIC.</p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#fcfaf2",
+            "color": ""
+          }
+        },
+        "video_U9fazq": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Cinot Tonic.mov",
+            "show_video_popup": false,
+            "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "",
+            "flex_align": "align--middle-center",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "bg_color": "",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_FepLyQ",
+        "video_U9fazq"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media screen and (max-width: 750px) {.hero__content {padding: 20px 0 20px 0; }}",
+        ".hero__rte {font-family: \"Surt Expanded\", sans-serif; line-height: 2em;}",
+        ".hero__title {margin-bottom: 40px; line-height: 1.6em;}"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_8bzbDt": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_cthCLp": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "CINOT & TONIC",
+            "text": "<p>2 PARTS CINOT <br/>3 PARTS TONIC<br/>SERVE WITH ICE </p>",
+            "button_text": "MORE RECIPES",
+            "button_url": "shopify://pages/drinks",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f8ac00",
+            "color": "#fcfaf2"
+          }
+        },
+        "video_wp4mBk": {
+          "type": "video",
+          "settings": {
+            "show_video_popup": false,
+            "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "image": "shopify://shop_images/Update_202505194.jpg",
+            "title": "",
+            "flex_align": "align--middle-center",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "bg_color": "",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_cthCLp",
+        "video_wp4mBk"
+      ],
+      "custom_css": [
+        ".hero__rte {font-family: \"Surt Expanded\", sans-serif; line-height: 1.6;}",
+        "span {padding-bottom: 9px;}"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_WVDxme": {
+      "type": "section-columns",
+      "blocks": {
+        "image_zncFJp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Magnolia_Cinot.jpg",
+            "image_shape": "normal",
+            "title": "MAGNOLIA PIGALLE",
+            "text": "<p>MAGNOLIA IS A COZY, STYLISH SPOT IN PIGALLE, RIGHT ACROSS FROM THE LOVELY PLACE GUSTAVE-TOUDOUZE. COMFORTING AND INNOVATIVE FRENCH CLASSICS WITH A MODERN TWIST. </p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1.2
+          }
+        },
+        "image_RfpDiH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CINOT_NON_ALCOHOLIC_APERITIF_3b4696d6-2bec-45b7-bc65-3fb41d614154.jpg",
+            "image_shape": "normal",
+            "title": "Relais du Castelet",
+            "text": "<p>ZIP A CINOT TONIC IN THE MOST BEAUTIFUL SETTING AT THIS HIDDEN GEM IN LES ALPILLES. A TABLE D’HÔTE WITH A MENU INSPIRED BY ITS OWN VEGETABLE GARDEN.</p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1.2
+          }
+        },
+        "image_E4Ek6r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CINOT_NON_ALCOHOLIC_APERITIF3.jpg",
+            "image_shape": "normal",
+            "title": "DUCASSE BACCARAT",
+            "text": "<p>A COCKTAIL MENU DESIGNED BY MARGOT CARPENTIER AND IMPECCABLY PRESENTED IN BACCARAT GLASSWARE. </p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1.2
+          }
+        },
+        "image_RgEAWd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0828.jpg",
+            "image_shape": "normal",
+            "title": "BISTRO MIRABELLE",
+            "text": "<p>A WARM, FRIENDLY BISTRO IN STOCKHOLM WHERE YOU INSTANTLY FEEL AT HOME. SEASONAL, CLASSIC FRENCH FOOD AND DISHES THAT SUPRISE. </p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1.2
+          }
+        },
+        "image_tKHrHg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CINOT_NON_ALCOHOLIC_APERITIF5.jpg",
+            "image_shape": "normal",
+            "title": "HOTEL CABANETTES",
+            "text": "<p>BUILT IN THE 60’S AND TO THIS DAY PRESERVED IN ITS ORIGINAL STATE. NESTLED IN THE HEART OF CAMARGUE ON THE RN 572. ZIP A CINOT TONIC BY THE POOL IN THIS RETRO DREAM.</p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1.2
+          }
+        },
+        "image_3cJ3aD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CINOT_NON_ALCOHOLIC_APERITIF4.jpg",
+            "image_shape": "normal",
+            "title": "BISTROT TOURNELLES",
+            "text": "<p>THE PHILOSOPHY HERE IS SIMPLE: GREAT FOOD, GOOD WINE AND SHARED MOMENTS OF TOGETHERNESS. START YOUR MEAL WITH A CINOT TONIC</p>",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1.2
+          }
+        }
+      },
+      "block_order": [
+        "image_zncFJp",
+        "image_RfpDiH",
+        "image_E4Ek6r",
+        "image_RgEAWd",
+        "image_tKHrHg",
+        "image_3cJ3aD"
+      ],
+      "custom_css": [
+        ".column__text {font-family: \"Surt Expanded\", sans-serif;}",
+        "p {line-height: 2em;}",
+        ".column__heading {line-height: 1.6em;}",
+        ".slider__button {--btn-size: 28px;}"
+      ],
+      "settings": {
+        "title": "DRINK CINOT AT",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "slider",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_newsletter_i4QQRU": {
+      "type": "section-newsletter",
+      "blocks": {
+        "newsletter_6pj99h": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "",
+            "heading": "GET 10% OFF ON YOUR FIRST ORDER",
+            "text": "<h3>SIGN UP TO OUR NEWSLETTER TO GET 10% OFF ON YOUR FIRST ORDER AND TO BE THE FIRST TO KNOW ABOUT OUR LATEST NEWS.</h3>",
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "JOIN",
+            "show_arrow": false,
+            "terms": true,
+            "show_name": false,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_social_links": false,
+            "bg_color": "",
+            "color": ""
+          }
+        },
+        "image_UYR6Ki": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cinot-padding-square.png",
+            "title": "",
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_6pj99h",
+        "image_UYR6Ki"
+      ],
+      "custom_css": [
+        "h3 {line-height: 2em;}",
+        ".input-group__field {font-family: \"Surt Expanded Extrabold\"; color: #fdc441 !important;}",
+        ".input-group__field:-webkit-autofill {-webkit-text-fill-color: #fdc441 !important;}",
+        "form .newsletter__message {background-color: rgba(255, 197, 66, 0.7); border: none; padding: 10px; color: #101010; text-align: center; font-family: \"Surt Expanded\"; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "section_reviews_HUrqXB": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_FrMifh": {
+          "type": "review",
+          "settings": {
+            "title": "- ALICE GERAULT",
+            "subheading": "FOUNDER SOLARCLUB",
+            "featured_image": "shopify://shop_images/ALICE_REVIEW_CINOT.jpg",
+            "review_url": ""
+          }
+        },
+        "review_iXXLmt": {
+          "type": "review",
+          "settings": {
+            "title": "– ALEXIS PETIT",
+            "subheading": "MODEL",
+            "featured_image": "shopify://shop_images/Alexis_Drink_Cinot.jpg",
+            "review_url": "https://www.instagram.com/alxsptt/"
+          }
+        },
+        "review_UNwVHF": {
+          "type": "review",
+          "settings": {
+            "title": "BENOÎT D'ONOFRIO",
+            "subheading": "LE SOBRELIER",
+            "featured_image": "shopify://shop_images/Benoit_Cinot.jpg",
+            "review_url": "https://www.instagram.com/le_sobrelier"
+          }
+        },
+        "review_ietjTc": {
+          "type": "review",
+          "settings": {
+            "title": "– DELANEY INAMINE",
+            "subheading": "PHOTOGRAPHER",
+            "featured_image": "shopify://shop_images/Drink_Cinot_Delaney.jpg",
+            "review_url": "https://www.instagram.com/delaneyinamine/"
+          }
+        }
+      },
+      "block_order": [
+        "review_FrMifh",
+        "review_iXXLmt",
+        "review_UNwVHF",
+        "review_ietjTc"
+      ],
+      "custom_css": [
+        ".review__author__name {font-size: 0.7rem;}",
+        ".review__author {margin: 0 !important; font-family: \"Surt Expanded\", sans-serif;}",
+        ".review__content {justify-content: end;}",
+        "p {line-height: 2em; margin-top: 2rem;}",
+        "@media screen and (min-width: 750px) and (max-width: 1040px) {.review__content {margin: 0 20px; padding: 20px 0; }}",
+        ".slider__button {--btn-size: 28px;}",
+        "@media screen and (max-width: 745px) {.review__content {justify-content: flex-start; } p {margin: 0; }}"
+      ],
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1.5,
+        "show_quotation_marks": false,
+        "text_align": "text-left",
+        "card_bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_press_logos_iGtnjC": {
+      "type": "section-press-logos",
+      "disabled": true,
+      "custom_css": [
+        ".logos__title {font-family: \"Surt Expanded\", sans-serif; font-size: 1.4rem;}",
+        ".logos__slide__text {font-family: \"Surt Expanded\", sans-serif; line-height: 0em; text-transform: uppercase; font-size: 0.7rem;}",
+        "@media screen and (min-width: 917px) {.logos__slider {gap: 1.5rem; }}"
+      ],
+      "settings": {
+        "enable_heading_slider": false,
+        "logo_opacity": 50,
+        "title": "AS SEEN IN",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_announcement_TLc43L": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_ADgajG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Monocle_brand_logo_svg.png",
+            "image_width": 180
+          }
+        },
+        "image_83UfbF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/elle-n.png",
+            "image_width": 120
+          }
+        },
+        "image_FnCQ8q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/svd-pad.png",
+            "image_width": 100
+          }
+        },
+        "image_eiY7nL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_12_ed095b14-9d63-4edc-bcc1-e22214a2e9b0.png",
+            "image_width": 180
+          }
+        },
+        "image_CtTram": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/perfectguide-n.png",
+            "image_width": 110
+          }
+        }
+      },
+      "block_order": [
+        "image_ADgajG",
+        "image_83UfbF",
+        "image_FnCQ8q",
+        "image_eiY7nL",
+        "image_CtTram"
+      ],
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 50,
+        "direction": "ticker-rtl",
+        "message_spacing": 20,
+        "show_border": false,
+        "layout": "marquee",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "section_hero_HFQFNx",
+    "section_announcement_QGBGLE",
+    "section_double_66eJhQ",
+    "section_double_wGwRPB",
+    "section_double_txPdcX",
+    "section_custom_content_zzMg3M",
+    "section_custom_content_8bzbDt",
+    "section_columns_WVDxme",
+    "section_newsletter_i4QQRU",
+    "section_reviews_HUrqXB",
+    "section_press_logos_iGtnjC",
+    "section_announcement_TLc43L"
+  ]
+}
