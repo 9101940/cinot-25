@@ -16,6 +16,7 @@
           "type": "title",
           "settings": {
             "subheading_option": "none",
+            "heading_font_size": "heading-small",
             "padding_bottom": 8
           }
         },
@@ -23,7 +24,10 @@
           "type": "text",
           "settings": {
             "title": "{{ product.metafields.custom.volume.value }}",
+            "heading_font_size": "body-small",
             "text": "",
+            "text_font_size": "body-medium",
+            "text_alignment": "text-left",
             "layout": "left",
             "padding_bottom": 8
           }
@@ -31,14 +35,18 @@
         "price": {
           "type": "price",
           "settings": {
+            "text_font_size": "body-small",
             "padding_bottom": 16
           }
         },
         "variants": {
           "type": "variants",
+          "disabled": true,
           "settings": {
             "info_page": "",
             "size_chart_style": "text",
+            "option_font_size": "body-medium",
+            "value_font_size": "body-x-small",
             "subscriptions_enable_selectors": false,
             "padding_bottom": 30
           }
@@ -47,25 +55,75 @@
           "type": "buttons",
           "settings": {
             "show_quantity": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
             "show_payment_button": false,
+            "button_type_dynamic": "btn--secondary",
+            "button_size_dynamic": "btn--large",
+            "button_style_dynamic": "btn--solid",
             "show_gift_card_recipient": false,
             "padding_bottom": 32
           }
         },
-        "tabs": {
-          "type": "tab_richtext",
+        "divider_XFatwe": {
+          "type": "divider",
           "settings": {
-            "show_read_more": true,
-            "title_1": "HOW TO DRINK",
-            "raw_content_1": "<p>{{ product.metafields.custom.how_to_drink | metafield_tag }}</p>",
-            "title_2": "INGREDIENTS LIST",
-            "raw_content_2": "<p>{{ product.metafields.custom.ingredients_list | metafield_tag }}</p>",
-            "title_3": "SERVING FACTS",
-            "raw_content_3": "<p>{{ product.metafields.custom.serving_facts | metafield_tag }}</p>",
-            "title_4": "",
-            "raw_content_4": "",
-            "title_5": "",
-            "raw_content_5": "",
+            "show_line": true,
+            "padding_bottom": 0
+          }
+        },
+        "accordion_yewawe": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": true,
+            "heading": "DESCRIPTION",
+            "heading_font_size": "body-small",
+            "text": "{{ product.description }}",
+            "text_font_size": "body-small",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_yM9TaF": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "HOW TO DRINK",
+            "heading_font_size": "body-small",
+            "text": "<p>{{ product.metafields.custom.how_to_drink | metafield_tag }}</p>",
+            "text_font_size": "body-small",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_T69VYE": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "INGREDIENTS LIST",
+            "heading_font_size": "body-small",
+            "text": "<p>{{ product.metafields.custom.ingredients_list | metafield_tag }}</p>",
+            "text_font_size": "body-small",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
             "padding_bottom": 50
           }
         },
@@ -73,7 +131,10 @@
           "type": "text",
           "settings": {
             "title": "YELLOW GENTIAN",
+            "heading_font_size": "body-small",
             "text": "<p>{{ product.metafields.custom.what_is_an_ap_ritif_ | metafield_tag }}</p>",
+            "text_font_size": "body-small",
+            "text_alignment": "text-left",
             "layout": "left",
             "padding_bottom": 50
           }
@@ -89,7 +150,10 @@
           "type": "text",
           "settings": {
             "title": "MADE IN FRANCE",
+            "heading_font_size": "body-small",
             "text": "<p>{{ product.metafields.custom.made_in_france | metafield_tag }}</p>",
+            "text_font_size": "body-small",
+            "text_alignment": "text-left",
             "layout": "left",
             "padding_bottom": 50
           }
@@ -108,27 +172,34 @@
         "price",
         "variants",
         "buttons",
-        "tabs",
+        "divider_XFatwe",
+        "accordion_yewawe",
+        "accordion_yM9TaF",
+        "accordion_T69VYE",
         "text_6XkjYE",
         "divider_Xt8GnY",
         "text_D8EmQC",
         "divider_6HhCfN"
       ],
       "custom_css": [
-        ".accordion__title {text-transform: uppercase; font-family: \"Surt Expanded Extrabold\";}",
-        ".product__heading,.product__price {font-family: \"Surt Expanded Extrabold\";}",
+        ".accordion__title {text-transform: uppercase; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
+        ".product__heading,.product__price {font-family: \"Surt Expanded Extrabold\", sans-serif;}",
         ".product__price {text-transform: uppercase;}",
         ".product__title {line-height: 1.6em;}",
+        ".select-popout__toggle {border-color: #f8ac00;}",
+        ".select-popout__list {border-color: #f8ac00;}",
         "@media screen and (min-width: 750px) {.product__content {padding-top: 40px; }}"
       ],
       "settings": {
         "product_sticky_enable": true,
+        "variant_image_scroll": true,
         "show_cart_bar": false,
         "enable_zoom": false,
         "enable_video_looping": false,
         "image_layout": "stacked",
         "image_size": "stretch",
         "mobile_image_style": "slider",
+        "color_scheme": "scheme-6",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -140,6 +211,7 @@
           "type": "text",
           "settings": {
             "text": "<h6>0% ALCOHOL</h6>",
+            "text_font_size": "body-small",
             "color": "#fcfaf2",
             "target_device_enabled": false,
             "target_device": "mobile"
@@ -156,6 +228,7 @@
           "type": "text",
           "settings": {
             "text": "<h6>NATURAL FLAVOURINGS</h6>",
+            "text_font_size": "body-small",
             "color": "#fcfaf2",
             "target_device_enabled": false,
             "target_device": "mobile"
@@ -172,6 +245,7 @@
           "type": "text",
           "settings": {
             "text": "<h6>NO ADDED SUGARS</h6>",
+            "text_font_size": "body-small",
             "color": "#fcfaf2",
             "target_device_enabled": false,
             "target_device": "mobile"
@@ -188,6 +262,7 @@
           "type": "text",
           "settings": {
             "text": "<h6>GLUTEN-FREE</h6>",
+            "text_font_size": "body-small",
             "color": "#fcfaf2",
             "target_device_enabled": false,
             "target_device": "mobile"
@@ -204,6 +279,7 @@
           "type": "text",
           "settings": {
             "text": "<h6>VEGAN</h6>",
+            "text_font_size": "body-small",
             "color": "#fcfaf2",
             "target_device_enabled": false,
             "target_device": "mobile"
@@ -220,6 +296,7 @@
           "type": "text",
           "settings": {
             "text": "<h6>NO ARTIFICIAL COLOURINGS</h6>",
+            "text_font_size": "body-small",
             "color": "#fcfaf2",
             "target_device_enabled": false,
             "target_device": "mobile"
@@ -258,6 +335,7 @@
         "message_spacing": 30,
         "show_border": false,
         "layout": "marquee",
+        "color_scheme": "scheme-2",
         "padding_top": 4,
         "padding_bottom": 4
       }
@@ -268,6 +346,13 @@
       "settings": {
         "enable_tabs": false,
         "heading_alignment": "text-center",
+        "heading_font_size": "heading-small",
+        "limit": 4,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "",
         "padding_top": 30,
         "padding_bottom": 0
       }
@@ -279,13 +364,16 @@
           "type": "heading",
           "settings": {
             "title": "HOW TO DRINK THE CINOT NON ALCOHOLIC APÉRITIF",
-            "padding_bottom": 40
+            "heading_font_size": "heading-small",
+            "padding_bottom": 40,
+            "heading_tag": "automatic"
           }
         },
         "text_kXx8Ah": {
           "type": "text",
           "settings": {
             "text": "<p>AN APÉRITIF IS A DRINK THAT IS TYPICALLY SERVED BEFORE A MEAL TO STIMULATE THE APPETITE AND A WAY TO RELAX AND SOCIALIZE BEFORE DINING, AND CAN BE CONSUMED FROM LUNCH TIME TO LATE NIGHT. THE CONCEPT IS MOST STRONGLY ASSOCIATED WITH FRANCE, WHERE IT HAS A LONG TRADITION AND IS A CULTURAL RITUAL. THE POPULARITY AND PRACTICE OF THE APÉRITIF HAVE SPREAD FROM FRANCE AND CAN VARY WIDELY DEPENDING ON CULTURAL TRADITIONS.<br/><br/>CINOT CAN BE MIXED INTO AN ENDLESS VARIETY OF COCKTAILS OR ON THE ROCKS. WHILE WE ENCOURAGE YOU TO CREATE YOUR OWN CINOT DRINKS, WE PARTICULARLY ENJOY MIXING 1 PART CINOT WITH 3 PARTS PREMIUM TONIC WATER. WE CALL IT THE CINOT AND TONIC.</p><p></p><p> </p><p></p>",
+            "text_font_size": "body-small",
             "padding_bottom": 16
           }
         }
@@ -309,8 +397,10 @@
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
+        "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "section_rich_text_rM8fiq": {
@@ -320,7 +410,9 @@
           "type": "heading",
           "settings": {
             "title": "TASTE PROFILE",
-            "padding_bottom": 40
+            "heading_font_size": "heading-small",
+            "padding_bottom": 40,
+            "heading_tag": "automatic"
           }
         }
       },
@@ -330,6 +422,8 @@
       "settings": {
         "align_text": "text-center",
         "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
         "padding_top": 80,
         "padding_bottom": 0
       }
@@ -347,7 +441,10 @@
             "icon_alignment": "icon--top",
             "icon_color": "#545454",
             "title": "BITTERNESS",
-            "text": "<p>HIGH</p>"
+            "heading_font_size": "heading-x-small",
+            "text": "<p>HIGH</p>",
+            "text_font_size": "body-x-small",
+            "heading_tag": "automatic"
           }
         },
         "icon_HeV9Cz": {
@@ -360,7 +457,10 @@
             "icon_alignment": "icon--top",
             "icon_color": "#545454",
             "title": "ACIDITY",
-            "text": "<p>MEDIUM-LOW</p>"
+            "heading_font_size": "heading-x-small",
+            "text": "<p>MEDIUM-LOW</p>",
+            "text_font_size": "body-x-small",
+            "heading_tag": "automatic"
           }
         },
         "icon_7NwbGn": {
@@ -373,7 +473,10 @@
             "icon_alignment": "icon--top",
             "icon_color": "#545454",
             "title": "HERBAL",
-            "text": "<p>MEDIUM</p>"
+            "heading_font_size": "heading-x-small",
+            "text": "<p>MEDIUM</p>",
+            "text_font_size": "body-x-small",
+            "heading_tag": "automatic"
           }
         },
         "icon_FNKc3r": {
@@ -386,7 +489,10 @@
             "icon_alignment": "icon--top",
             "icon_color": "#545454",
             "title": "FRUITINESS",
-            "text": "<p>MEDIUM</p>"
+            "heading_font_size": "heading-x-small",
+            "text": "<p>MEDIUM</p>",
+            "text_font_size": "body-x-small",
+            "heading_tag": "automatic"
           }
         },
         "icon_mFxkqt": {
@@ -399,7 +505,10 @@
             "icon_alignment": "icon--top",
             "icon_color": "#545454",
             "title": "SWEETNESS",
-            "text": "<p>MEDIUM-LOW</p>"
+            "heading_font_size": "heading-x-small",
+            "text": "<p>MEDIUM-LOW</p>",
+            "text_font_size": "body-x-small",
+            "heading_tag": "automatic"
           }
         },
         "icon_x7Qbzr": {
@@ -412,7 +521,10 @@
             "icon_alignment": "icon--top",
             "icon_color": "#545454",
             "title": "SPICE",
-            "text": "<p>MEDIUM</p>"
+            "heading_font_size": "heading-x-small",
+            "text": "<p>MEDIUM</p>",
+            "text_font_size": "body-x-small",
+            "heading_tag": "automatic"
           }
         }
       },
@@ -424,16 +536,20 @@
         "icon_mFxkqt",
         "icon_x7Qbzr"
       ],
+      "custom_css": [],
       "settings": {
         "title": "",
+        "heading_font_size": "heading-medium",
         "description": "",
         "align_heading": "text-center",
         "align_text": "text-center",
         "width": "wrapper",
         "align_columns": "flex-align-center",
         "layout_mobile": "2",
+        "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 80
+        "padding_bottom": 80,
+        "heading_tag": "automatic"
       }
     },
     "section_custom_content_Yq4jJb": {
@@ -444,7 +560,9 @@
           "settings": {
             "subheading": "",
             "title": "”WE CREATED CINOT TO OFFER A SOPHISTICATED ALTERNATIVE, A WAY TO ENJOY COMPLEX FLAVORS AND THE JOY OF APERITIF CULTURE, MINDFULLY.”",
+            "heading_font_size": "heading-small",
             "text": "",
+            "text_font_size": "body-medium",
             "button_text": "THE CINOT STORY",
             "button_url": "shopify://pages/about",
             "button_type": "btn--primary",
@@ -455,7 +573,8 @@
             "text_columns": 1,
             "align_text": "text-left",
             "bg_color": "#fcfaf2",
-            "color": ""
+            "color": "",
+            "heading_tag": "automatic"
           }
         },
         "image_DtjJxk": {
@@ -463,15 +582,21 @@
           "settings": {
             "image": "shopify://shop_images/Update_202505196.jpg",
             "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
             "flex_align": "align--middle-center",
+            "show_text_background": false,
             "bg_color": "",
             "color": "#ffffff",
+            "overlay_type": "disabled",
             "link_text": "",
             "link": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "heading_tag": "automatic"
           }
         }
       },
@@ -491,6 +616,7 @@
         "height": "screen-height-three-quarters",
         "mobile_height": "screen-height-three-quarters--mobile",
         "reverse_blocks": true,
+        "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -513,7 +639,7 @@
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
-            "icon_color": "#545454"
+            "icon_color": "rgba(0,0,0,0)"
           }
         },
         "question_49DMy9": {
@@ -587,69 +713,19 @@
         "question_gwUbXP"
       ],
       "custom_css": [
-        ".accordion__heading {margin-bottom: 40px; font-size: 1.4rem;}",
-        ".accordion__title {font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
-        "@media (min-width: 750px) {}",
+        ".accordion__heading {margin-bottom: 40px;}",
+        ".accordion__title {padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
+        "p {font-size: 11px;}",
         "@media (max-width: 750px) {.accordion-group {padding: 36px 0 36px 0; }}"
       ],
       "settings": {
+        "heading_font_size": "heading-small",
+        "question_font_size": "heading-x-small",
         "width": "wrapper",
         "columns": "2",
+        "color_scheme": "",
         "padding_top": 80,
         "padding_bottom": 80
-      }
-    },
-    "section_reviews_LHz4iE": {
-      "type": "section-reviews",
-      "blocks": {
-        "review_fLDQYT": {
-          "type": "review",
-          "settings": {
-            "title": "– SAM YOUKLIS",
-            "subheading": "",
-            "featured_image": "shopify://shop_images/Screenshot_2023-11-26_at_3.54.49_pm_7cb455e4-c09d-467e-b1a8-c7619532b16a.png",
-            "review_url": ""
-          }
-        },
-        "review_pWAiGR": {
-          "type": "review",
-          "settings": {
-            "title": "– SAM YOUKLIS",
-            "subheading": "",
-            "featured_image": "shopify://shop_images/Screenshot_2023-11-26_at_3.54.49_pm_7cb455e4-c09d-467e-b1a8-c7619532b16a.png",
-            "review_url": ""
-          }
-        },
-        "review_EB8qVR": {
-          "type": "review",
-          "settings": {
-            "title": "– SAM YOUKILIS",
-            "subheading": "",
-            "featured_image": "shopify://shop_images/Screenshot_2023-11-26_at_3.54.49_pm_7cb455e4-c09d-467e-b1a8-c7619532b16a.png",
-            "review_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "review_fLDQYT",
-        "review_pWAiGR",
-        "review_EB8qVR"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".review__author__name {font-size: 0.7rem;}",
-        ".review__author {margin: 0 !important; font-family: \"Surt Expanded\", sans-serif;}",
-        ".review__content {display: flex; justify-content: end;}",
-        "p {line-height: 1.4rem; margin-top: 60px;}"
-      ],
-      "settings": {
-        "show_featured_image": true,
-        "image_aspect_ratio": 1.5,
-        "show_quotation_marks": false,
-        "text_align": "text-left",
-        "card_bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     }
   },
@@ -661,7 +737,6 @@
     "section_rich_text_rM8fiq",
     "section_multicolumn_WFEh3c",
     "section_custom_content_Yq4jJb",
-    "section_accordion_group_zBTQ83",
-    "section_reviews_LHz4iE"
+    "section_accordion_group_zBTQ83"
   ]
 }

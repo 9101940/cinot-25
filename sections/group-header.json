@@ -20,7 +20,12 @@
         "text_alignment": "center",
         "show_arrows": false,
         "marquee_speed": 100,
-        "message_spacing": 10
+        "message_spacing": 10,
+        "text_font_size": "body-small",
+        "color_scheme": "",
+        "border_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "header": {
@@ -30,16 +35,21 @@
           "type": "toolbar",
           "disabled": true,
           "settings": {
-            "text": "<p>Toolbar</p>",
+            "text": "",
             "menu": "",
             "show_border": false,
+            "border_color": "",
             "border_opacity": 50,
             "show_social_links": true,
-            "show_gift_card": true,
+            "show_gift_card": false,
             "show_locale_selector": false,
+            "show_globe_icon": false,
             "show_country_selector": true,
-            "show_country_name": false,
-            "show_country_flag": true
+            "show_country_name": true,
+            "show_country_flag": false,
+            "color_scheme": "",
+            "padding_top": 0,
+            "padding_bottom": 0
           }
         }
       },
@@ -48,13 +58,14 @@
       ],
       "custom_css": [
         ".navlink--toplevel:after {bottom: 10px;}",
-        "a {font-family: \"Surt Expanded Extrabold\", sans-serif;}",
+        "a,.popout__toggle__text {font-family: \"Surt Expanded Extrabold\", sans-serif;}",
         ".drawer__main-menu .sliderow__title {font-size: 18.4px; font-family: \"Surt Expanded\", sans-serif;}"
       ],
       "settings": {
         "header_sticky": true,
         "header_style": "logo_center_menu_left",
         "show_separator_line": false,
+        "header_border_color": "",
         "separator_opacity": 55,
         "show_icons": false,
         "icon_as_circle": false,
@@ -65,8 +76,12 @@
         "main_menu_linklist": "main-menu-1",
         "mobile_menu_linklist": "main-menu-1",
         "enable_search": false,
-        "show_social_icons": true,
+        "show_social_icons": false,
+        "button_text": "",
+        "button_link": "",
+        "button_type": "btn--primary",
         "show_locale_selector": false,
+        "show_globe_icon": true,
         "show_country_selector": true,
         "show_country_name": true,
         "show_country_flag": false,
@@ -83,10 +98,123 @@
         "padding_top": 10,
         "padding_bottom": 10
       }
+    },
+    "mobile_menu_FEA7cN": {
+      "type": "mobile-menu",
+      "blocks": {
+        "image_jwMqzQ": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/CINOT-LOGO-YELLOW_a996995b-0ee5-418f-adae-c86693fc3302.png",
+            "image_url": "",
+            "image_alignment": "left",
+            "image_width": 50,
+            "pin_to_bottom": false,
+            "padding_bottom": 28
+          }
+        },
+        "menu_iJgwch": {
+          "type": "menu",
+          "settings": {
+            "mobile_menu_linklist": "main-menu-1",
+            "text_font_size": "body-x-large",
+            "highlight_item": "Sale",
+            "highlight_item_color": "#d02e2e",
+            "padding": true,
+            "padding_bottom": 14
+          }
+        },
+        "divider_J7YV8U": {
+          "type": "divider",
+          "settings": {
+            "show_line": false,
+            "padding_bottom": 10
+          }
+        },
+        "menu_columns_C6Ci3w": {
+          "type": "menu-columns",
+          "settings": {
+            "mobile_menu_linklist": "secondary-mobile-menu",
+            "text_font_size": "body-x-small",
+            "highlight_item": "Sale",
+            "highlight_item_color": "#d02e2e",
+            "padding": false,
+            "padding_bottom": 40
+          }
+        },
+        "divider_ibMTGH": {
+          "type": "divider",
+          "settings": {
+            "show_line": false,
+            "padding_bottom": 22
+          }
+        },
+        "localization_QpjV7X": {
+          "type": "localization",
+          "settings": {
+            "show_locale_selector": true,
+            "show_globe_icon": false,
+            "show_country_selector": true,
+            "show_country_name": true,
+            "show_country_flag": false,
+            "width": "full",
+            "pin_to_bottom": false,
+            "padding_bottom": 14
+          }
+        },
+        "image_JebRRz": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/CINOT_DRINK.jpg",
+            "image_url": "",
+            "image_alignment": "left",
+            "image_width": 100,
+            "pin_to_bottom": true,
+            "padding_bottom": 14
+          }
+        },
+        "image_imR4Q8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CINOT-LOGO-YELLOW_a996995b-0ee5-418f-adae-c86693fc3302.png",
+            "image_url": "",
+            "image_alignment": "center",
+            "image_width": 70,
+            "pin_to_bottom": true,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "image_jwMqzQ",
+        "menu_iJgwch",
+        "divider_J7YV8U",
+        "menu_columns_C6Ci3w",
+        "divider_ibMTGH",
+        "localization_QpjV7X",
+        "image_JebRRz",
+        "image_imR4Q8"
+      ],
+      "custom_css": [
+        ".body-x-large .sliderow__title span {font-size: 18px; font-family: \"Surt Expanded\", sans-serif;}",
+        "span {font-family: \"Surt Expanded Extrabold\", sans-serif;}",
+        ".popout__toggle__text {font-family: \"Surt Expanded Extrabold\", sans-serif; font-size: 11.2px;}",
+        ".drawer__main-menu {grid-template-columns: 1fr;}",
+        ".popout__icon-currency {display: none;}",
+        ".popout-list {background: #f3f1e5;}"
+      ],
+      "name": "Mobile menu",
+      "settings": {
+        "logo_max_limit": 200,
+        "color_scheme": "scheme-8"
+      }
     }
   },
   "order": [
     "announcement",
-    "header"
+    "header",
+    "mobile_menu_FEA7cN"
   ]
 }

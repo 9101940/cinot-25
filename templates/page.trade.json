@@ -14,11 +14,15 @@
       "settings": {
         "subheading": "",
         "show_title": false,
+        "heading_font_size": "heading-large",
         "show_content": true,
+        "text_font_size": "body-medium",
         "align_text": "text-left",
         "width": "wrapper",
+        "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
       }
     },
     "section_rich_text_px6LDN": {
@@ -28,13 +32,16 @@
           "type": "heading",
           "settings": {
             "title": "DO YOU WANT TO WORK WITH CINOT?",
-            "padding_bottom": 40
+            "heading_font_size": "heading-small",
+            "padding_bottom": 40,
+            "heading_tag": "automatic"
           }
         },
         "text_pMc3AR": {
           "type": "text",
           "settings": {
             "text": "<p>Inspired by the French joie de vivre and the iconic 60-70s, Cinot captures the unique spirit of a glamorous and bohemian era, celebrated through movies, artists, and writers. It was a time marked by the timeless elegance of la belle du jour Brigitte Bardot, the cheeky smile of Alain Delon and, accompagné par les tunes of Serge Gainsbourg, Jacques Dutronc and Francoise Hardy. </p>",
+            "text_font_size": "body-small",
             "padding_bottom": 16
           }
         }
@@ -44,11 +51,13 @@
         "text_pMc3AR"
       ],
       "custom_css": [
-        ".hero__rte {line-height: 2em; text-transform: uppercase; max-width: 50rem; align-self: center;}"
+        ".hero__rte {line-height: 2em; text-transform: uppercase; max-width: 50rem; align-self: center; font-family: \"Surt Expanded\", sans-serif;}"
       ],
       "settings": {
         "align_text": "text-center",
         "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -61,6 +70,7 @@
           "settings": {
             "title": "DAVID LUNDIN",
             "subheading": "MIRABELLE",
+            "review_content": "<p>CINOT HAS SUCCEEDED WHERE MANY FALL SHORT – OFFERING BOTH A FLAVOR PROFILE AND DESIGN THAT FIT NATURALLY INTO OUR SELECTION. WE PRIMARILY COLLABORATE WITH SMALL-SCALE, NATURE-FOCUSED PRODUCERS FROM FRANCE, AS WELL AS HISTORICAL NAMES THAT HAVE SHAPED THE QUALITY-DRIVEN HERITAGE OF FRENCH BEVERAGE CULTURE. CINOT CONFIDENTLY STANDS ALONGSIDE THESE ICONS IN AN IMPRESSIVE WAY.</p>",
             "featured_image": "shopify://shop_images/DAVID_LUNDIN-_MIRABELLE.jpg",
             "review_url": ""
           }
@@ -70,6 +80,7 @@
           "settings": {
             "title": "BENOÎT D'ONOFRIO",
             "subheading": "Le sobrelier",
+            "review_content": "<p>CINOT’S NOT ONLY AN ALTERNATIVE TO STANDARD ALCOHOLIC DRINKS BUT IS ALSO A TRULY NEW PARADIGM THAT BRINGS ITS OWN NEW PALATE OF AROMATICS, SUBTLY DELIVERING A WIDE PALATE OF HERBACEOUS NOTES ALONG WITH FRESH SPICES AND CITRUS AROMAS. BEYOND BEING MERELY INNOVATIVE, CINOT FULFILS ONE’S EXPECTATIONS IN TERMS OF FLAVOURS AND TEXTURES COMPLEXITY LEADING THE WAY TOWARDS A WHOLE NEW FIELD OF MOMENTS AND FOODS PAIRINGS.</p>",
             "featured_image": "shopify://shop_images/CINOT_REVIEW.jpg",
             "review_url": ""
           }
@@ -92,7 +103,9 @@
         "show_featured_image": true,
         "image_aspect_ratio": 1.5,
         "show_quotation_marks": false,
+        "heading_font_size": "heading-mini",
         "text_align": "text-left",
+        "color_scheme": "",
         "card_bg_color": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -105,7 +118,9 @@
           "type": "heading",
           "settings": {
             "title": "’Cinot’s dynamic flavor make it the perfect base for any cocktail adventure, even as a modifier for spiritS’",
-            "padding_bottom": 16
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
           }
         }
       },
@@ -125,8 +140,10 @@
         "height": "screen-height-three-quarters",
         "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": false,
+        "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "contact_form_ddU4AQ": {
@@ -150,6 +167,7 @@
           "type": "select",
           "settings": {
             "title": "REASON FOR ENQUIRY",
+            "required": false,
             "label-one": "- Pick an option -",
             "label-two": "ORDER CINOT FOR YOUR BAR, RESTAURANT, OR HOTEL",
             "label-three": "WHOLESALE",
@@ -180,10 +198,13 @@
       ],
       "settings": {
         "title": "TRADE CONTACT",
+        "heading_font_size": "heading-small",
         "terms": true,
         "width": "wrapper--narrow",
+        "color_scheme": "",
         "padding_top": 80,
-        "padding_bottom": 80
+        "padding_bottom": 80,
+        "heading_tag": "automatic"
       }
     }
   },

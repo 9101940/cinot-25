@@ -17,12 +17,14 @@
         "title": {
           "type": "title",
           "settings": {
-            "title": "Cart"
+            "title": "Cart",
+            "text_font_size": "body-medium"
           }
         },
         "products": {
           "type": "products",
           "settings": {
+            "text_font_size": "body-x-small",
             "pin_to_bottom": false
           }
         },
@@ -59,7 +61,9 @@
         ".cart__title,.cart__total__label,.cart__total__price,.cart__item__title,.cart__price,.cart__item__remove {font-family: \"Surt Expanded\"; text-transform: uppercase;}",
         ".drawer__empty__message {font-family: \"Surt Expanded\"; text-transform: uppercase;}"
       ],
-      "settings": {}
+      "settings": {
+        "color_scheme": ""
+      }
     },
     "overlay_newsletter_km4jEC": {
       "type": "overlay-newsletter",
@@ -94,6 +98,7 @@
       "block_order": [
         "large_newsletter_rwXma7"
       ],
+      "disabled": true,
       "custom_css": [
         ".modal__description.rte {line-height: 2em; font-family: \"Surt Expanded\", sans-serif;}",
         "h2.modal__title {font-size: 1.4rem;}",
@@ -101,7 +106,9 @@
         ".input-group__field::placeholder {font-size: 0.7rem;}"
       ],
       "name": "Newsletter",
-      "settings": {}
+      "settings": {
+        "color_scheme": "scheme-2"
+      }
     }
   },
   "order": [

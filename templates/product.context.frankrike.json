@@ -15,14 +15,7 @@
   "sections": {
     "main": {
       "settings": {},
-      "blocks": {
-        "tabs": {
-          "settings": {
-            "title_4": "",
-            "raw_content_4": ""
-          }
-        }
-      }
+      "blocks": {}
     }
   }
 }

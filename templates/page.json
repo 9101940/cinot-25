@@ -14,11 +14,15 @@
       "settings": {
         "subheading": "",
         "show_title": false,
+        "heading_font_size": "heading-large",
         "show_content": true,
+        "text_font_size": "body-medium",
         "align_text": "text-left",
         "width": "wrapper",
+        "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
       }
     },
     "section_double_JhFX8Y": {
@@ -28,13 +32,16 @@
           "type": "heading",
           "settings": {
             "title": "JOIN THE CLUB",
-            "padding_bottom": 40
+            "heading_font_size": "heading-small",
+            "padding_bottom": 40,
+            "heading_tag": "automatic"
           }
         },
         "text_eadEr3": {
           "type": "text",
           "settings": {
             "text": "<p>SIGN UP TO OUR NEWSLETTER TO BE THE FIRST</p><p>TO KNOW ABOUT OUR NEWS, EVENTS AND MORE.</p>",
+            "text_font_size": "body-medium",
             "padding_bottom": 16
           }
         }
@@ -55,8 +62,10 @@
         "height": "screen-height-one-half",
         "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": false,
+        "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "section_newsletter_66wdmQ": {
@@ -67,7 +76,9 @@
           "settings": {
             "subheading": "",
             "heading": "SIGN UP",
+            "heading_font_size": "heading-small",
             "text": "",
+            "text_font_size": "body-medium",
             "text_columns": 1,
             "align_text": "text-center",
             "button_text": "Join",
@@ -79,7 +90,8 @@
             "button_style": "btn--solid",
             "show_social_links": false,
             "bg_color": "",
-            "color": ""
+            "color": "",
+            "heading_tag": "automatic"
           }
         }
       },
@@ -98,6 +110,7 @@
         "width": "wrapper--full",
         "height": "three-fifty-height-hero",
         "mobile_height": "screen-height-one-half--mobile",
+        "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 20
       }

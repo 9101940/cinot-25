@@ -15,11 +15,15 @@
       "settings": {
         "subheading": "",
         "show_title": true,
+        "heading_font_size": "heading-large",
         "show_content": true,
+        "text_font_size": "body-medium",
         "align_text": "text-left",
         "width": "wrapper",
+        "color_scheme": "",
         "padding_top": 50,
-        "padding_bottom": 50
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
       }
     },
     "double-1": {
@@ -29,13 +33,16 @@
           "type": "heading",
           "settings": {
             "title": "A MODERN ODE TO THE FRENCH JOIE DE VIVRE",
-            "padding_bottom": 40
+            "heading_font_size": "heading-small",
+            "padding_bottom": 40,
+            "heading_tag": "automatic"
           }
         },
         "text-1-1": {
           "type": "text",
           "settings": {
             "text": "<p>Inspired by the French joie de vivre and the iconic 60-70s, Cinot captures the unique spirit of a glamorous and bohemian era, celebrated through movies, artists, and writers. It was a time marked by the timeless elegance of la belle du jour Brigitte Bardot, the cheeky smile of Alain Delon, and set to the tunes of Serge Gainsbourg, Jacques Dutronc and Francoise Hardy.</p><p><br/>CENTRAL TO THIS VIBRANT LIFESTYLE THAT MIXED LEISURE WITH ARTISTIC CREATIVITY WAS THE APERITIF CULTURE – REFRESHING, FLAVOR-FILLED DRINKS SERVED AT RELAXED GATHERINGS. ENJOYED AT A CAFÉ IN PARIS, ACCOMPANYING A SET OF PETANQUE AT PLACE DE LICE IN ST TROPEZ, OR WHEN WATCHING THE SUN SET IN THE HARBOR OF MARSEILLE.<br/><br/>Cinot is a new kind of aperitif that honors this tradition. While we’ve adapted the classic to meet the needs of the modern, mindful drinker, the spirit of the French joie de vivre remains the same.</p>",
+            "text_font_size": "body-small",
             "padding_bottom": 20
           }
         }
@@ -58,8 +65,10 @@
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
+        "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "section_custom_content_h79rUB": {
@@ -70,7 +79,9 @@
           "settings": {
             "subheading": "",
             "title": "”WE CREATED CINOT TO OFFER A SOPHISTICATED ALTERNATIVE – A WAY TO ENJOY COMPLEX FLAVORS AND THE JOY OF APÉRITIF CULTURE, MINDFULLY.”",
+            "heading_font_size": "heading-small",
             "text": "",
+            "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary",
@@ -81,7 +92,8 @@
             "text_columns": 1,
             "align_text": "text-left",
             "bg_color": "#f8ac00",
-            "color": "#fcfaf2"
+            "color": "#fcfaf2",
+            "heading_tag": "automatic"
           }
         },
         "image_fbDUci": {
@@ -89,15 +101,21 @@
           "settings": {
             "image": "shopify://shop_images/Frame_3.jpg",
             "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
             "flex_align": "align--middle-center",
+            "show_text_background": false,
             "bg_color": "",
             "color": "#ffffff",
+            "overlay_type": "disabled",
             "link_text": "",
             "link": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "heading_tag": "automatic"
           }
         }
       },
@@ -116,6 +134,7 @@
         "height": "screen-height-three-quarters",
         "mobile_height": "screen-height-three-quarters--mobile",
         "reverse_blocks": true,
+        "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -127,13 +146,16 @@
           "type": "heading",
           "settings": {
             "title": "PRODUIT DE FRANCE, UNE RECETTE ORIGINALE",
-            "padding_bottom": 40
+            "heading_font_size": "heading-small",
+            "padding_bottom": 40,
+            "heading_tag": "automatic"
           }
         },
         "text_N687zW": {
           "type": "text",
           "settings": {
             "text": "<p>THE CINOT RECIPE WAS DEVELOPED IN PARIS AND IS DESIGNED TO DELIVER A COMPLEX DRINKING EXPERIENCE WHERE EACH NOTE UNFOLDS LIKE A PERFUME.<br/><br/>AT ITS CORE: GENTIAN ROOT, AN ALPINE PLANT KNOWN FOR ITS BITTERNESS AND GOLDEN HUE. HERBS, FRUITS AND SPICES COMPLETE THE PROFILE, CREATING A DEPTH THAT HOLDS ITS OWN NEXT TO THE CLASSICS.<br/><br/>EACH BATCH IS MADE AND BOTTLED BY A SMALL, FAMILY-OWNED PRODUCER IN THE LOIRE VALLEY – ENSURING FRENCH TRADITION IN EVERY BOTTLE.</p>",
+            "text_font_size": "body-small",
             "padding_bottom": 20
           }
         }
@@ -156,8 +178,10 @@
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
+        "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     }
   },

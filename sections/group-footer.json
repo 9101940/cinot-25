@@ -19,7 +19,9 @@
           "settings": {
             "linklist": "footer-left",
             "title": "",
-            "column_width": 15
+            "heading_font_size": "heading-medium",
+            "column_width": 15,
+            "enable_accordion": false
           }
         },
         "linklist_Wy4Pw6": {
@@ -27,13 +29,16 @@
           "settings": {
             "linklist": "footer-menu-second-left",
             "title": "",
-            "column_width": 15
+            "heading_font_size": "heading-medium",
+            "column_width": 15,
+            "enable_accordion": false
           }
         },
         "newsletter_DMVexa": {
           "type": "newsletter",
           "settings": {
             "title": "",
+            "heading_font_size": "heading-medium",
             "text": "<p><a href=\"/pages/newsletter\" title=\"NEWSLETTER\">NEWSLETTER</a></p>",
             "button_text": "Join",
             "show_arrow": false,
@@ -51,7 +56,9 @@
           "settings": {
             "linklist": "foote-menu-second-right",
             "title": "",
-            "column_width": 15
+            "heading_font_size": "heading-medium",
+            "column_width": 15,
+            "enable_accordion": false
           }
         },
         "linklist_XGa3aq": {
@@ -59,7 +66,9 @@
           "settings": {
             "linklist": "footer-menu-right",
             "title": "",
-            "column_width": 15
+            "heading_font_size": "heading-medium",
+            "column_width": 15,
+            "enable_accordion": false
           }
         }
       },
@@ -73,11 +82,12 @@
       "custom_css": [
         ".footer__newsletter__text a {background: none;}",
         ".input-group__field {}",
-        "form .newsletter__message {background-color: #f3f1e5; border: none; padding: 10px; color: #101010; text-align: center; font-family: \"Surt Expanded\"; text-transform: uppercase;}"
+        "form .newsletter__message {background-color: #f3f1e5; border: none; padding: 10px; color: #101010; text-align: center; font-family: \"Surt Expanded\", sans-serif; text-transform: uppercase;}"
       ],
       "settings": {
         "logo": "shopify://shop_images/CINOT-LOGO-YELLOW.png",
         "logo_image_width": 210,
+        "color_scheme": "scheme-1",
         "border_color": "#101010",
         "padding_top": 12,
         "padding_bottom": 70

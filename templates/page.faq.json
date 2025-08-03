@@ -15,11 +15,15 @@
       "settings": {
         "subheading": "",
         "show_title": false,
+        "heading_font_size": "heading-large",
         "show_content": false,
+        "text_font_size": "body-medium",
         "align_text": "text-center",
         "width": "wrapper",
+        "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
       }
     },
     "section_rich_text_JLjcRx": {
@@ -29,13 +33,16 @@
           "type": "heading",
           "settings": {
             "title": "WE’RE HERE TO HELP",
-            "padding_bottom": 40
+            "heading_font_size": "heading-small",
+            "padding_bottom": 40,
+            "heading_tag": "automatic"
           }
         },
         "text_7hVcLg": {
           "type": "text",
           "settings": {
             "text": "<p>WE KNOW YOU'VE GOT QUESTIONS. WE'VE GONE AHEAD AND ANSWERED THE MOST COMMON QUESTIONS BELOW. IF YOU DON'T FIND WHAT YOU'RE LOOKING FOR, PLEASE CONTACT US THROUGH THIS <a href=\"/pages/contact\" title=\"CONTACT\">FORM</a>.</p>",
+            "text_font_size": "body-small",
             "padding_bottom": 16
           }
         }
@@ -54,6 +61,8 @@
       "settings": {
         "align_text": "text-center",
         "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -124,14 +133,16 @@
         "question_FVUmmP"
       ],
       "custom_css": [
-        ".accordion__heading {margin-bottom: 40px; font-size: 1.4rem;}",
-        ".accordion__title {font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
-        "@media (min-width: 750px) {}",
+        ".accordion__heading {margin-bottom: 40px;}",
+        ".accordion__title {padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
         "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
       ],
       "settings": {
+        "heading_font_size": "heading-small",
+        "question_font_size": "heading-mini",
         "width": "wrapper",
         "columns": "1",
+        "color_scheme": "scheme-3",
         "padding_top": 50,
         "padding_bottom": 50
       }
@@ -202,14 +213,16 @@
         "question_JgtXWP"
       ],
       "custom_css": [
-        ".accordion__heading {margin-bottom: 40px; font-size: 1.4rem;}",
-        ".accordion__title {font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
-        "@media (min-width: 750px) {}",
+        ".accordion__heading {margin-bottom: 40px;}",
+        ".accordion__title {padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
         "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
       ],
       "settings": {
+        "heading_font_size": "heading-small",
+        "question_font_size": "heading-mini",
         "width": "wrapper",
         "columns": "1",
+        "color_scheme": "scheme-1",
         "padding_top": 50,
         "padding_bottom": 50
       }
@@ -254,14 +267,17 @@
         "question-2"
       ],
       "custom_css": [
-        ".accordion__heading {margin-bottom: 40px; font-size: 1.4rem;}",
-        ".accordion__title {font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
+        ".accordion__heading {margin-bottom: 40px;}",
+        ".accordion__title {padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
         "@media (min-width: 750px) {}",
         "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
       ],
       "settings": {
+        "heading_font_size": "heading-small",
+        "question_font_size": "heading-mini",
         "width": "wrapper",
         "columns": "1",
+        "color_scheme": "scheme-3",
         "padding_top": 50,
         "padding_bottom": 50
       }
@@ -306,14 +322,17 @@
         "question_MKxdzB"
       ],
       "custom_css": [
-        ".accordion__heading {margin-bottom: 40px; font-size: 1.4rem;}",
-        ".accordion__title {font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
+        ".accordion__heading {margin-bottom: 40px;}",
+        ".accordion__title {padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
         "@media (min-width: 750px) {}",
         "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
       ],
       "settings": {
+        "heading_font_size": "heading-small",
+        "question_font_size": "heading-mini",
         "width": "wrapper",
         "columns": "1",
+        "color_scheme": "scheme-1",
         "padding_top": 50,
         "padding_bottom": 50
       }

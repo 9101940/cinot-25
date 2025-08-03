@@ -15,11 +15,15 @@
       "settings": {
         "subheading": "",
         "show_title": false,
+        "heading_font_size": "heading-large",
         "show_content": false,
+        "text_font_size": "body-medium",
         "align_text": "text-center",
         "width": "wrapper",
+        "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
       }
     },
     "section_double_qCPx8G": {
@@ -29,13 +33,16 @@
           "type": "heading",
           "settings": {
             "title": "WE’D LOVE TO HEAR FROM YOU",
-            "padding_bottom": 40
+            "heading_font_size": "heading-small",
+            "padding_bottom": 40,
+            "heading_tag": "automatic"
           }
         },
         "text_LqEhA9": {
           "type": "text",
           "settings": {
             "text": "<p>HAVE SUGGESTIONS, QUESTIONS, IDEAS, OR JUST WANT TO CHAT? WE’D LOVE TO HEAR FROM YOU! TO ENSURE WE RECEIVE YOUR MESSAGE, PLEASE USE THE FORM BELOW. WE AIM TO ANSWER INQUIRIES WITHIN 2 BUSINESS DAYS.</p>",
+            "text_font_size": "body-small",
             "padding_bottom": 16
           }
         }
@@ -57,8 +64,10 @@
         "height": "screen-height-one-half",
         "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": false,
+        "color_scheme": "scheme-2",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "contact": {
@@ -82,6 +91,7 @@
           "type": "select",
           "settings": {
             "title": "",
+            "required": false,
             "label-one": "PICK AN OPTION",
             "label-two": "Questions about the product",
             "label-three": "Delivery and returns",
@@ -112,10 +122,13 @@
       ],
       "settings": {
         "title": "",
+        "heading_font_size": "heading-large",
         "terms": true,
         "width": "wrapper--narrow",
+        "color_scheme": "",
         "padding_top": 50,
-        "padding_bottom": 50
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
       }
     },
     "section_accordion_group_BPd8rm": {
@@ -158,14 +171,17 @@
         "question_DPqdBh"
       ],
       "custom_css": [
-        ".accordion__heading {margin-bottom: 40px; font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded\", sans-serif;}",
-        ".accordion__title {font-size: 0.7rem; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded\", sans-serif;}",
+        ".accordion__heading {margin-bottom: 40px; padding: 15px 30px 15px 0px; font-family: \"Surt Expanded\", sans-serif;}",
+        ".accordion__title {padding: 15px 30px 15px 0px; font-family: \"Surt Expanded\", sans-serif;}",
         "@media (min-width: 750px) {}",
         "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
       ],
       "settings": {
+        "heading_font_size": "heading-mini",
+        "question_font_size": "heading-mini",
         "width": "wrapper--narrow",
         "columns": "1",
+        "color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 80
       }
@@ -217,8 +233,11 @@
         "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
       ],
       "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
         "width": "wrapper--narrow",
         "columns": "1",
+        "color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 50
       }
