@@ -19,7 +19,8 @@
     "type_nav_caps": true,
     "type_base_font": "inter_n4",
     "base_font_size": 12,
-    "subheading_size_desktop": 14,
+    "subheading_size_desktop": 12,
+    "subheading_size_mobile": 10,
     "heading_mini": 11,
     "heading_x_small": 12,
     "heading_small": 21,
@@ -232,7 +233,7 @@
           "btn_secondary_text": "#fcfaf2",
           "btn_secondary_border": "#f8ac00",
           "accent": "#fcfaf2",
-          "lines_and_border": "#eda502",
+          "lines_and_border": "#fcfaf2",
           "overlay": "#0000004d",
           "links": "#eda502"
         }

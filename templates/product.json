@@ -720,7 +720,7 @@
       ],
       "settings": {
         "heading_font_size": "heading-small",
-        "question_font_size": "heading-x-small",
+        "question_font_size": "heading-mini",
         "width": "wrapper",
         "columns": "2",
         "color_scheme": "",

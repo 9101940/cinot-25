@@ -59,7 +59,8 @@
       "custom_css": [
         ".navlink--toplevel:after {bottom: 10px;}",
         "a,.popout__toggle__text {font-family: \"Surt Expanded Extrabold\", sans-serif;}",
-        ".drawer__main-menu .sliderow__title {font-size: 18.4px; font-family: \"Surt Expanded\", sans-serif;}"
+        ".drawer__main-menu .sliderow__title {font-size: 18.4px; font-family: \"Surt Expanded\", sans-serif;}",
+        ".navlink--toplevel span:first-of-type:after {bottom: -7px;}"
       ],
       "settings": {
         "header_sticky": true,
@@ -181,7 +182,7 @@
             "image": "shopify://shop_images/CINOT-LOGO-YELLOW_a996995b-0ee5-418f-adae-c86693fc3302.png",
             "image_url": "",
             "image_alignment": "center",
-            "image_width": 70,
+            "image_width": 65,
             "pin_to_bottom": true,
             "padding_bottom": 8
           }

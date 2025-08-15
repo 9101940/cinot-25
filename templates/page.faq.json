@@ -135,6 +135,7 @@
       "custom_css": [
         ".accordion__heading {margin-bottom: 40px;}",
         ".accordion__title {padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
+        "p {font-size: 11px;}",
         "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
       ],
       "settings": {
@@ -215,6 +216,7 @@
       "custom_css": [
         ".accordion__heading {margin-bottom: 40px;}",
         ".accordion__title {padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
+        "p {font-size: 11px;}",
         "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
       ],
       "settings": {
@@ -269,7 +271,7 @@
       "custom_css": [
         ".accordion__heading {margin-bottom: 40px;}",
         ".accordion__title {padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
-        "@media (min-width: 750px) {}",
+        "p {font-size: 11px;}",
         "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
       ],
       "settings": {
@@ -324,7 +326,7 @@
       "custom_css": [
         ".accordion__heading {margin-bottom: 40px;}",
         ".accordion__title {padding: 15px 30px 15px 0px; font-family: \"Surt Expanded Extrabold\", sans-serif;}",
-        "@media (min-width: 750px) {}",
+        "p {font-size: 11px;}",
         "@media (max-width: 750px) {.accordion-group {padding: 60px 0 60px 0; }}"
       ],
       "settings": {

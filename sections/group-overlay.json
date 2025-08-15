@@ -103,7 +103,10 @@
         ".modal__description.rte {line-height: 2em; font-family: \"Surt Expanded\", sans-serif;}",
         "h2.modal__title {font-size: 1.4rem;}",
         ".input-group__field {font-family: \"Surt Expanded Extrabold\", sans-serif; text-transform: uppercase;}",
-        ".input-group__field::placeholder {font-size: 0.7rem;}"
+        ".input-group__field::placeholder {font-size: 0.7rem;}",
+        ".modal--default button.close .icon {stroke: #fcfaf2;}",
+        ".form__legal a {--main-color: #f3f1e5; --hover-color: #f3f1e5;}",
+        ".form__legal a::after {--main-color: #f3f1e5; --hover-color: #f3f1e5;}"
       ],
       "name": "Newsletter",
       "settings": {
