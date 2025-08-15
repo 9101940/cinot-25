@@ -96,8 +96,7 @@
 
     {%- if countries -%}
       {%- capture currency -%}
-        {{- localization.country.currency.iso_code }}
-        {{ localization.country.currency.symbol -}}
+          {{- localization.country.currency.iso_code -}}{%- comment -%} {{- localization.country.currency.symbol -}} {%- endcomment -%}
       {%- endcapture -%}
 
       <div class="{{ parent_class }}__holder">
@@ -147,8 +146,8 @@
                   <span>
                     {{ country.name }}
 
-                    ({{ country.currency.iso_code }}
-                    {{ country.currency.symbol }})
+                    ({{ country.currency.iso_code }})
+                    {% comment %} {{ country.currency.symbol }}) {% endcomment %}
                   </span>
                 </a>
               </li>
