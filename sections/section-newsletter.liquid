@@ -4,7 +4,14 @@
     assign block_count = section.blocks.size
     assign animation_anchor = '#Newsletter--' | append: section.id
     assign color_scheme = 'color-' | append: section.settings.color_scheme
-  -%}
+    assign image_desktop = section.settings.image
+    assign image_mobile = section.settings.image_mobile
+    assign overlay_type = section.settings.overlay_type
+      assign opacity_overlay = false
+       if overlay_type == 'opacity'
+      assign opacity_overlay = true
+    endif
+   -%}
 
   {%- style -%}
     #Newsletter--{{ section.id }} {
@@ -20,6 +27,19 @@
     data-section-id="{{ section.id }}"
     data-section-type="newsletter"
   >
+
+      {%- if image_desktop or image_mobile -%}
+    <div class="hero__bg">
+      <div class="hero__image">
+        {%- render 'image-hero', image_desktop: image_desktop, image_mobile: image_mobile -%}
+      </div>
+
+      {%- if opacity_overlay -%}
+        <div class="image-overlay"></div>
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+
     <div class="section-padding {{ section.settings.width }}">
       {%- if block_count > 0 -%}
         <div class="brick__section {{ section.settings.height }}">
@@ -89,6 +109,11 @@
         {"value": "three-fifty-height-hero", "label": "350px"},
         {"value": "two-fifty-height-hero", "label": "250px"}
       ]
+    },        {
+      "type": "image_picker",
+      "id": "image",
+      "info": "Optional. 3200 x 1200px .jpg recommended. [Learn more](http://presidiodev.com/link/broadcast/images)",
+      "label": "Background image"
     },
     {
       "type": "header",
@@ -112,6 +137,12 @@
         {"value": "two-fifty-height-hero--mobile", "label": "250px"}
       ]
     },
+        {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Background image",
+      "info": "Optional. 1200 x 1600px .jpg recommended. [Learn more](http://presidiodev.com/link/broadcast/images)"
+    },
     {
       "type": "header",
       "content": "Colors"
@@ -121,6 +152,16 @@
       "id": "color_scheme",
       "default": "scheme_1",
       "label": "Color scheme"
+    },
+        {
+      "type": "select",
+      "id": "overlay_type",
+      "label": "Overlay type",
+      "default": "disabled",
+      "options": [
+        {"value": "disabled", "label": "Disabled"},
+        {"value": "opacity", "label": "Opacity overlay"},
+      ]
     },
     {
       "type": "header",
